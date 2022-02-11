@@ -1,0 +1,33 @@
+== Description ==
+
+The UP1-Progger is part of the [[OpenKNX UP1]] system and helps uploading firmware and debugging.
+
+It connects to the SWD-USB interface of the [[UP1-Controller2040]].
+
+== Ressources ==
+
+* [https://github.com/OpenKNX/OpenKNX-UP1/blob/main/hardware/EDA-Files/UP1-Progger/UP1-Progger_V00.10.sch.pdf Schematic V00.10]
+* [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/EDA-Files/UP1-Progger KiCAD project files]
+
+== Usage ==
+
+To connect the UP1-Controller2040 to your computer for debugging or loading firmware, there is a 7pin interface with the USB lines, power and SWD. The UP1 progger converts 5V USB level to 3.3V level of the controller and features a Micro or standard USB B jack.
+
+For debugging, there is a 2x5 2.00mm JTAG header and a 2x5 2.54mm header.
+
+Be carefull: never connect to USB and KNX simultaneously without using a USB isolator.
+
+== Sourcing  ==
+
+You can get nacked PCB or soldering kits [http://shop.sirsydom.de here] for a donation.
+
+[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/hardware/EDA-Files/UP1-Progger/UP1-Progger_V00.10_gerbers.zip Gerber files V00.10] are availible in the repository.
+
+== Assembly ==
+
+you don't have to solder all parts, only the one needed for your use cases.  
+
+
+== Pictures ==
+
+[[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.10_top.jpg]]
