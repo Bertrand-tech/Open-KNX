@@ -29,7 +29,7 @@ You can get kits with almost all parts already be soldered [http://shop.sirsydom
 There are some parts that must be soldered by the user:
 * D100 - SMAJ supressor diode, polarity does not matter
 * J100 - soldering pins for the KNX connector
-* GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]] (not included!)
+* GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]] (NanoBCU not included in the kit)
 * J101 - 01x08 1.27mm THT pin header for connecting the [[UP1-Progger]]
 
 
