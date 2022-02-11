@@ -1,0 +1,40 @@
+== Description ==
+
+The UP1-Controller2040 is part of the [[OpenKNX UP1]] system and holds KNX-Connector, BCU, a RP2040 DualCore Cortex M0 MCU, 16MB QSPI Flash, Prog Button, Prog LED, a debug interface and lots of GPIO to connect to the application.
+
+There are also two footprints for a I2C temperature sensor and a I2C EEPROM.
+
+Especially for, but not limited to, using GPIO as I2C, there are some footprints for optional pull up resistors.
+
+== Schematic ==
+
+* [https://github.com/OpenKNX/OpenKNX-UP1 V00.02]
+
+== Pictures ==
+
+== USB/SWD interface ==
+
+To connect the UP1-Controller2040 to your computer for debugging or loading firmware, there is a 7pin interface with the USB lines, power and SWD. Be carefull, the 5V from USB have to be lowered to 3.3V externally.
+
+For your convinience, there is the [[UP1-Progger]] with a USB connector.
+
+Be carefull: never connect to USB and KNX simultaneously without using a USB isolater.
+
+== Sourcing  ==
+
+You can get kits with almost all parts already be soldered [http://shop.sirsydom.de here] for a donation
+
+== Final assembly ==
+
+There are some parts that must be soldered by the user:
+* D100 - SMAJ supressor diode, polarity does not matter
+* J100 - soldering pins for the KNX connector
+* GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]]
+* J101 - 01x08 1.27mm THT pin header for connecting the [[UP1-Progger]]
+
+
+Optional parts, not included in the kit. 
+
+* R109 - R116: 0805 SMD resistors
+* U102 - SOT23-6 I2C EEPROM
+* U103 - TMP100 SOT23-5 I2C temperature sensor
