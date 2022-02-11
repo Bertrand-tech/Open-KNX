@@ -18,7 +18,7 @@ To connect the UP1-Controller2040 to your computer for debugging or loading firm
 
 For your convinience, there is the [[UP1-Progger]] with a USB connector.
 
-Be carefull: never connect to USB and KNX simultaneously without using a USB isolater.
+Be carefull: never connect to USB and KNX simultaneously without using a USB isolator.
 
 == Sourcing  ==
 
@@ -29,12 +29,12 @@ You can get kits with almost all parts already be soldered [http://shop.sirsydom
 There are some parts that must be soldered by the user:
 * D100 - SMAJ supressor diode, polarity does not matter
 * J100 - soldering pins for the KNX connector
-* GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]]
+* GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]] (not included!)
 * J101 - 01x08 1.27mm THT pin header for connecting the [[UP1-Progger]]
 
 
 Optional parts, not included in the kit. 
 
 * R109 - R116: 0805 SMD resistors
-* U102 - SOT23-6 I2C EEPROM
-* U103 - TMP100 SOT23-5 I2C temperature sensor
+* U102 - SOT23-6 I2C EEPROM, e.g. Microchip AT24CS01 (or any deivce with identical footprint)
+* U103 - TMP100 SOT23-5 I2C temperature sensor (or any deivce with identical footprint)
