@@ -1,5 +1,7 @@
 The system UP1 is a framework and a class of devices sharing common components.
 
+It is designed for usage in switch boxes inside the wall or behind switches.
+
 The modular approach speeds up developement and gives the possibity to use assembled components.
 
 An UP1 device consists of a controller pcb with MCU, Flash, KNX-Connector and BCU, an application pcb which holds the function (FETs, sensor ICs, terminals, relay and a 3D-printed case
