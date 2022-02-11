@@ -6,11 +6,10 @@ There are also two footprints for a I2C temperature sensor and a I2C EEPROM.
 
 Especially for, but not limited to, using GPIO as I2C, there are some footprints for optional pull up resistors.
 
-== Schematic ==
+== Ressources ==
 
-* [https://github.com/OpenKNX/OpenKNX-UP1 V00.02]
-
-== Pictures ==
+* [https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02.sch.pdf Schematic V00.02]
+* [https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02.step 3D modell V00.02]
 
 == USB/SWD interface ==
 
@@ -31,6 +30,7 @@ There are some parts that must be soldered by the user:
 * J100 - soldering pins for the KNX connector
 * GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]] (NanoBCU not included in the kit)
 * J101 - 01x08 1.27mm THT pin header for connecting the [[UP1-Progger]]
+* J102 - 01x20 1.27mm angled THT pin header for connecting the application PCB. The black plastic spacer must be moved a little bit before soldering to fit
 
 
 Optional parts, not included in the kit. 
@@ -38,3 +38,12 @@ Optional parts, not included in the kit.
 * R109 - R116: 0805 SMD resistors
 * U102 - SOT23-6 I2C EEPROM, e.g. Microchip AT24CS01 (or any deivce with identical footprint)
 * U103 - TMP100 SOT23-5 I2C temperature sensor (or any deivce with identical footprint)
+
+optional part placement is defined by the application.
+
+
+== Pictures ==
+
+[[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02_3D_bot.png]]
+
+[[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02_3D_top_wo_smd.png]]
