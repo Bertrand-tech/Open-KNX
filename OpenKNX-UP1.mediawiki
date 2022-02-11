@@ -1,0 +1,23 @@
+The system UP1 is a framework and a class of devices sharing common components.
+
+The modular approach speeds up developement and gives the possibity to use assembled components.
+
+An UP1 device consists of a controller pcb with MCU, Flash, KNX-Connector and BCU, an application pcb which holds the function (FETs, sensor ICs, terminals, relay and a 3D-printed case
+
+== Components ==
+
+* [[UP1-Controller2040]]
+* [[UP1-Progger]]
+
+== Devices ==
+
+* [[LED-UP1-6x24V]]
+* [[SEN-UP1-8xTH]]
+
+== Framework ==
+
+Things that help you develop an own UP1 device
+
+* [[UP1-AppTemplate]]: a KiCAD template project to develop an own application PCB
+* [[OpenKNX-KiCad-Lib]]
+* example sketch
