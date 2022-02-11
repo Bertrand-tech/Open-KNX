@@ -21,7 +21,7 @@ Be carefull: never connect to USB and KNX simultaneously without using a USB iso
 
 == Sourcing  ==
 
-You can get kits with almost all parts already be soldered [http://shop.sirsydom.de here] for a donation
+You can get soldering kits with almost all parts already be soldered [http://shop.sirsydom.de here] for a donation. Some soldering skills are still  neccessary.
 
 == Final assembly ==
 
