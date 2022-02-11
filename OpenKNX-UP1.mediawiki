@@ -20,8 +20,8 @@ An UP1 device consists of a controller pcb with MCU, Flash, KNX-Connector and BC
 
 Things that help you develop an own UP1 device
 
-* [[UP1-AppTemplate]]: a KiCAD template project to develop an own application PCB
-* [[OpenKNX-KiCad-Lib]]
+* [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/EDA-Files/UP1-AppTemplate UP1-AppTemplate]: a KiCAD template project to develop an own application PCB
+* [[OpenKNX-KiCad-Lib]]: a KiCAD symbol and footprint library with 3D-modells
 * example sketch
 
 == Repository ==
