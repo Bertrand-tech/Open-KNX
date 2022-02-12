@@ -1,10 +1,14 @@
 == Description ==
 
-The UP1-Controller2040 is part of the [[OpenKNX UP1]] system and holds KNX-Connector, BCU, a RP2040 DualCore Cortex M0 MCU, 16MB QSPI Flash, Prog Button, Prog LED, a debug interface and lots of GPIO to connect to the application.
-
-There are also two footprints for a I2C temperature sensor and a I2C EEPROM.
-
+{|
+|-
+| 
+The UP1-Controller2040 is part of the [[OpenKNX UP1]] system and holds KNX-Connector, a [[NanoBCU]], a RP2040 DualCore Cortex M0 MCU, 16MB QSPI Flash, Prog Button, Prog LED, a debug interface and lots of GPIO to connect to the application.<br><br>
+There are also two footprints for a I2C temperature sensor and a I2C EEPROM.<br><br>
 Especially for, but not limited to, using GPIO as I2C, there are some footprints for optional pull up resistors.
+| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02_3D_bot.png|width=150px]] [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02_3D_top_wo_smd.png|width=150px]]
+|}
+
 
 == Ressources ==
 
