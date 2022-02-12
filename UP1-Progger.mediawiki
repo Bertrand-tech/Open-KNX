@@ -1,8 +1,14 @@
+
+
 == Description ==
 
-The UP1-Progger is part of the [[OpenKNX UP1]] system and helps uploading firmware and debugging.
 
+{|
+|-
+| The UP1-Progger is part of the [[OpenKNX UP1]] system and helps uploading firmware and debugging.<br>
 It connects to the SWD-USB interface of the [[UP1-Controller2040]].
+| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.10_top.jpg|width=200px]]
+|}
 
 == Ressources ==
 
