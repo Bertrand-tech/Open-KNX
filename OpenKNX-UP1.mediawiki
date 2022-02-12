@@ -1,10 +1,13 @@
-The system UP1 is a framework and a class of devices sharing common components.
+== Description ==
 
-It is designed for usage in switch boxes inside the wall or behind switches.
-
-The modular approach speeds up developement and gives the possibity to use assembled components.
-
+{|
+|-
+| The system UP1 is a framework and a class of devices sharing common components.<br><br>
+It is designed for usage in switch boxes inside the wall or behind switches.<br><br>
+The modular approach speeds up developement and gives the possibity to use assembled components.<br><br>
 An UP1 device consists of a controller pcb with MCU, Flash, KNX-Connector and BCU, an application pcb which holds the function (FETs, sensor ICs, terminals, relay) and a 3D-printed case.
+| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Controller2040_V00.02_3D_bot.png|width=150px]] [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Case_001_Catia.png|width=150px]]
+|}
 
 == Components ==
 
@@ -22,6 +25,7 @@ Things that help you develop an own UP1 device
 
 * [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/EDA-Files/UP1-AppTemplate UP1-AppTemplate]: a KiCAD template project to develop an own application PCB
 * [[OpenKNX-KiCad-Lib]]: a KiCAD symbol and footprint library with 3D-modells
+* [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/CAD-Files/UP1-Case UP1-Case]: a 3D model of a 3D-printable case. Available as STL or CATIA
 * example sketch
 
 == Repository ==
