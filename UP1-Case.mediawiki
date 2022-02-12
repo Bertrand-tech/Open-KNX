@@ -1,0 +1,21 @@
+== Description ==
+
+{|
+|-
+| The UP1-Case is a generic 3D model of a 3D-printable case.<br><br>
+It consits of a bottom and top part where the bottom part hodlds the pcb.<br>
+Both parts are held together with a M2 screw.
+| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Case_001_Catia.png|width=150px]]
+|}
+
+== Adaptions ==
+
+Since the CATIA sources are in the repo, feel free to adapt the generic UP1-Case to fit your needs.
+
+As an alternative, you can print the UP1-Case and make cut outs for e.g. terminals with a knife or drill.
+
+If you don't have CATIA, you may work with the STL and modify it with a CAD of your choice.
+
+== Repository ==
+
+All ressources can be found in the [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/CAD-Files/UP1-Case Repository]
