@@ -1,0 +1,32 @@
+== Description ==
+
+
+{|
+|-
+| The PiPico BCU Connector is an adapter PCB to connect a Raspberry Pi Pico MCU Board with a [[NanoBCU]] (or MicroBCU) and has a KNX Connector, Reset- and Prog-Button and a Prog-LED.
+| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.10_top.jpg|width=200px]]
+|}
+
+== Ressources ==
+
+
+
+== Usage ==
+
+
+
+Be carefull: never connect to USB and KNX simultaneously without using a USB isolator.
+
+== Sourcing  ==
+
+You can get PCBs [http://shop.sirsydom.de here] for a donation.
+
+[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/hardware/EDA-Files/UP1-Progger/UP1-Progger_V00.10_gerbers.zip Gerber files V00.10] are availible in the repository.
+
+== Assembly ==
+
+
+
+== Pictures ==
+
+[[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.10_top.jpg]]
