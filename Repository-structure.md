@@ -4,7 +4,8 @@ this defines the naming of the repositories within the OpenKNX Github space
 
 ## Special repos
 
-* OpenKNX - main repo for general documentation, project organization
+* OpenKNX - main repo for general documentation, public project information
+* Organization - private repo for internal project information
 * .github - repo for the OpenKNX Github Organization readme.md (start page)
 
 
@@ -46,6 +47,7 @@ tbd
 | Name | Description |
 | --- | ----------- |
 | [OpenKNX](https://github.com/OpenKNX/OpenKNX) | General Information about the OpenKNX project and common ressources |
+| [Organization](https://github.com/OpenKNX/Organization) | internal project information |
 | [OpenKNX-UP1](https://github.com/OpenKNX/OpenKNX-UP1) |  OpenKNX UP1 system |
 | [OpenKNX-KiCad-Lib](https://github.com/OpenKNX/OpenKNX-KiCad-Lib) |  OpenKNX KiCAD Lib |
 | [Kaenx-Konnect](https://github.com/OpenKNX/Kaenx-Konnect) | Kaenx.Konnekt C#.Net KNX stack for PC |
