@@ -1,0 +1,64 @@
+== Description ==
+
+{|
+|-
+| An Adapter to connect an Adafruit ItsyBitsy M0 Express Board (or compatible pinouts like M4 or RP2040) with a [[NanoBCU]].
+| [[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/Pictures/ItsyBitsy_BCU_Connector_V00.01_solderd01_small.jpg|width=300px]]
+|}
+
+
+== Sourcing  ==
+
+You can get PCBs [http://shop.sirsydom.de here] for a donation.
+
+For the parts there is a [https://www.reichelt.de/my/1797372 BOM at Reichelt] for your convenience.
+
+== User Documentation ==
+
+=== Usage ===
+
+Controllerboard and BCU can be connected by PinHeader/PinSocket combinations. The Adapter itself can also be mounted or plugged on another PCB or Breadboard.<br>
+For KNX connectivity you can use the standard KNX Connektor or any screw terminal / plug in 5.08 / 200mil.<br>
+
+
+You can decide if you want to supply the Controllerboard directly with 3.3V or supply the Controllerboard with Vcc2 (5V by default) and use the LDO on the Controllerboard. That may help reduce ripple.<br>
+There are 3 1206 pads for MLCCs for buffering supply voltage.<br>
+You can solder a SMAJC40A TVS diode near the KNX Connector to have best transient voltage supression. In that case you can leave the TVS on the BCU away.
+
+=== Assembly ===
+The PCB with its silkscreen is pretty simple and self-explaining, assemble it so that it fits your needs.
+
+=== Schematic ===
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.01_Schematic.pdf Schematic V00.01]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.10_Schematic.pdf Schematic V00.10]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.20_Schematic.pdf Schematic V00.20]
+
+
+== Developer Documentation ==
+
+=== Version history ===
+
+* V00.01 - first prototype series : Attention: polarity at KNX Connectos are mixed up! See #2
+* V00.10 - fixed reversed polarity, new KNX Connector footprint
+* V00.20 - added Vcc2 Pin to connect BCU's Vcc2 to host PCB
+
+== Links ==
+
+[https://knx-user-forum.de/forum/projektforen/konnekting/1550342-sehr-g%C3%BCnstige-micro-bcu-lite-als-bausatz-interesse Vorstellungs- / Entwicklungsthread im KNX User Forum]
+
+== Pictures ==
+
+=== V00.10 ===
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/Pictures/ItsyBitsy_BCU_Connector_V00.01_solderd01.jpg]]
+
+=== V00.01 ===
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.01_PCB_bot.png]]
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.01_PCB_top.png]]
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/Pictures/ItsyBitsy_BCU_Connector_V00.01_solderd01_small.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/Pictures/ItsyBitsy_BCU_Connector_V00.01_solderd02_small.jpg]]
+
