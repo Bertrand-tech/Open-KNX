@@ -1,0 +1,57 @@
+== Description ==
+
+{|
+|-
+| An Adapter to connect with an standard Breadboard which hosts BCU and KNX connector.<br>
+You can use it with [[NanoBCU]], MicroBCU2 or MicroBCU. Also SiemensBCU is possible.<br>
+You can isolate the BCU by use of the Adum1201 or just bridge it together. The Adum can also be used to shift levels (3V3 vs. 5V).<br>
+Be carefull when the Adum1201 is solderd - Rx and Tx should not be bridged in that case, just bridge Vcc and GND for a non-isolated setup.<br>
+There is a possibility to connect the second voltage from the BCU to the lower Rail or to connect a external voltage.
+| [[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/Pictures/IMG_20210620_102247178.jpg|width=300px]]
+|}
+
+
+== Sourcing  ==
+
+You can get PCBs [http://shop.sirsydom.de here] for a donation.
+
+For the parts there is a [https://www.reichelt.de/my/1797127 BOM at Reichelt] for your convenience.
+
+== User Documentation ==
+
+=== Assembly ===
+The PCB with its silkscreen is pretty simple and self-explaining, assemble it so that it fits your needs.
+
+=== Schematic ===
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/BCU_Breadboard_Adapter_Schematic_V00.01.pdf Schematic V00.01]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/BCU_Breadboard_Adapter_Schematic_V00.02.pdf Schematic V00.02]
+
+
+== Developer Documentation ==
+
+=== Version history ===
+* V00.01 - first prototype series
+* V00.02
+** added a second 7x1 pin header for Micro/[[NanoBCU]], to enable male and female BCUs to be connected
+** moved adum to top layer and added pin headers for usage of a adum1201 breakout board\
+** added additional pins for VCC/GND buses to improve mechanical stability
+
+== Links ==
+
+[https://knx-user-forum.de/forum/projektforen/konnekting/1550342-sehr-g%C3%BCnstige-micro-bcu-lite-als-bausatz-interesse Vorstellungs- / Entwicklungsthread im KNX User Forum]
+
+== Pictures ==
+
+=== V00.02 ===
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/Pictures/IMG_20210620_102247178.jpg]]
+
+=== V00.01 ===
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/Pictures/IMG_20210105_175816365.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/Pictures/IMG_20210105_175842864.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/Pictures/IMG_20210105_155521760.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/BCU_Breadboard_Adapter/doc/Pictures/IMG_20210105_162945018.jpg]]
