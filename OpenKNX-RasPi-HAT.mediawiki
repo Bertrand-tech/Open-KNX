@@ -1,0 +1,77 @@
+== Description ==
+
+{|
+|-
+| A HAT for Raspberry Pi, connecting the RaspPi to KNX TP with the use of the UART interface on GPIO-Pins.<br><br>
+When used with a RaspPi 4, it is possible to use a second [[NanoBCU]] to connect to two individual KNX TP Lines.<br><br>
+The RaspPi is isolated with magnetic couplers (2kV) from KNX TP, the two KNX TP lines are also isolated from each other.<br><br>
+The HAT is designed for usage within a DIN RAIL case. Unfortunately the USB port to power the RaspPi is located on the side. On this HAT, there is also a DC/DC converter which powers the RaspPi over the GPIO Pins. You can input 12V up to 30V DC.
+| 
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Renderings/DualKNX_MicroBCU_RaspiHat_V00.03_3D_Render%20(Klein).png]]
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/IMG_20210311_140428649%20-%20Kopie.jpg]]
+|}
+
+
+
+== Sourcing ==
+
+You can get PCBs [http://shop.sirsydom.de here] for a donation.<br>
+For the parts I made a [https://www.reichelt.de/my/1814014 BOM at Reichelt] for your convenience.<br>
+Parts not availibe at reichelt: 47uH power inductor, min. 3A (e.g. FXL1360-470-M) - I recommend choosing the assembled kit if the DC-DC converter will be used.<br>
+Reichelt BOM without parts for the DC-DC converter: [https://www.reichelt.de/my/1828602]<br>
+I added 2 different Connectors for the RPi-Headers - one stacking header, one normal female header. Remove the one you don't need.<br><br>
+The 35mm DIN rail case on the photos is availible at [https://www.rasppishop.de/Hutschienen-Gehaeuse-fuer-Rabperry-Pi- rasppishop]
+
+
+== User Documentation ==
+
+=== Assembly ===
+
+{|
+|-
+| * KNX2 BCU only works on RPi4, don't solder the parts if you don't need it
+* power supply is also optional (part numbers with "3" like L3 or D32). If you want to feed 5V over J30, leave away U3 and D33 and close JP3)
+* on BOT there are 4 solder jumpers to select the UARTs of the RasPi4 to connect the BCUs to. On RasPi 2 and 3 use PIN 8/10 option.
+* the StepDown Converter will be very hard to solder with iron due to large copper areas
+* for each [[NanoBCU]] it can be selected by the usage of the solder jumpers on the bottom side, to which UART of the Pi they will be connected. RasPi previous 4 only have one UART, use KNX1 with UART in PIN8/10 in that case.
+| 
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Renderings/UART_select_jumper.png]]
+|}
+
+
+
+
+
+
+
+
+=== Ressources ===
+* [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/DualKNX_MicroBCU_RaspiHat_Schematic_V00.03.pdf Schematic V00.03]
+* [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/DualKNX_MicroBCU_RaspiHat_Schematic_V00.04.pdf Schematic V00.04]
+* [https://github.com/OpenKNX/OpenKNX-RasPi-HAT Repository with all documentation]
+
+
+== Developer Documentation ==
+
+=== Version history ===
+* V00.03 - first prototype series
+* V00.04 - fixed wrong LED polarity
+
+
+== Links ==
+
+[https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1597469-dualknx-microbcu-hat-f%C3%BCr-raspberrypi-mit-dc-dc-netzteil Vorstellungs- / Entwicklungsthread im KNX User Forum]
+
+== Pictures ==
+
+=== V00.03 ===
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/IMG_20210311_141130413%20(Mittel).jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/IMG_20210311_143212816%20(Mittel).jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/IMG_20210311_143313530%20(Mittel).jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Renderings/DualKNX_MicroBCU_RaspiHat_V00.03_PCB_TOP_BOT.png]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Renderings/DualKNX_MicroBCU_RaspiHat_V00.03_3D_Render.png]]
