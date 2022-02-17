@@ -2,7 +2,7 @@
 
 {|
 |-
-| An Adapter to connect an Adafruit ItsyBitsy M0 Express Board (or compatible pinouts like M4 or RP2040) with a [[NanoBCU]].
+| An Adapter to connect an Adafruit ItsyBitsy Express Boards (M0, M4 or RP2040) with a [[NanoBCU]].
 | [[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/Pictures/ItsyBitsy_BCU_Connector_V00.01_solderd01_small.jpg|width=300px]]
 |}
 
@@ -32,6 +32,7 @@ The PCB with its silkscreen is pretty simple and self-explaining, assemble it so
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.01_Schematic.pdf Schematic V00.01]
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.10_Schematic.pdf Schematic V00.10]
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V00.20_Schematic.pdf Schematic V00.20]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V01.00_Schematic.pdf Schematic V01.00]
 
 
 == Developer Documentation ==
@@ -41,12 +42,17 @@ The PCB with its silkscreen is pretty simple and self-explaining, assemble it so
 * V00.01 - first prototype series : Attention: polarity at KNX Connectos are mixed up! See #2
 * V00.10 - fixed reversed polarity, new KNX Connector footprint
 * V00.20 - added Vcc2 Pin to connect BCU's Vcc2 to host PCB
+* V01.00 - only silkscreen changes, adapted to OpenKNX
 
 == Links ==
 
 [https://knx-user-forum.de/forum/projektforen/konnekting/1550342-sehr-g%C3%BCnstige-micro-bcu-lite-als-bausatz-interesse Vorstellungs- / Entwicklungsthread im KNX User Forum]
 
 == Pictures ==
+
+=== V01.00 ===
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/ItsyBitsy_BCU_Connector/doc/ItsyBitsy_BCU_Connector_V01.00_PCB.png]]
 
 === V00.10 ===
 
