@@ -45,6 +45,13 @@ Optional parts, not included in the kit.
 
 optional part placement is defined by the application.
 
+== Developer documentation ==
+
+=== Version history
+
+* V00.01 - first prototype
+* V00.02 - added footprints for SOT23 temperature sensor and EERORM, moved KNX connector 1mm to the edge, adapted tp OpenKNX
+
 
 == Pictures ==
 
