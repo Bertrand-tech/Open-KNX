@@ -44,7 +44,7 @@ You can get PCBs [http://shop.sirsydom.de here] for a donation.
 
 === V02.00 ===
 
-[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.02_3D_top.png]
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.02_3D_top.png]]
 
 [[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.02_3D_bot.png]]
 
