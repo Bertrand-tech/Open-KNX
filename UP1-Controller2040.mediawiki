@@ -30,7 +30,7 @@ You can get soldering kits with almost all parts already be soldered [http://sho
 == Final assembly ==
 
 There are some parts that must be soldered by the user:
-* D100 - SMAJ supressor diode, polarity does not matter
+* D100 - SMAJ supressor diode, polarity does not matter (not included in the kit, use the one from BCU kit)
 * J100 - soldering pins for the KNX connector (connector not included in the kit)
 * GN100 - 01x07 2.54mm SMD pin header for connecting the [[NanoBCU]] (NanoBCU not included in the kit)
 * J101 - 01x08 1.27mm THT pin header for connecting the [[UP1-Progger]]
