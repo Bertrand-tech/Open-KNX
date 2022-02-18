@@ -31,7 +31,7 @@ You can get PCBs [http://shop.sirsydom.de here] for a donation.<br>
 
 === Version history ===
 * V00.01 - first prototype series (KUPS)
-* V00.02 - [[OpenKNX UP1 adaptions]], [[UP1 Controller2040]] V00.02
+* V00.02 - [[OpenKNX UP1]] adaptions, [[UP1 Controller2040]] V00.02
 
 
 == Links ==
