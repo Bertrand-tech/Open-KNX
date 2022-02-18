@@ -66,6 +66,18 @@ The protocol of the NCN5120 is compatible in almost every case to the TPUart, so
 
 == Developer Documentation ==
 
+=== Usage of the SAVE pin ===
+
+Details to the SAVE-Pin and the behaviour of the NCN5120 at bus voltage drop down can be found in the NCN5120 datasheet.<br><br>
+The SAVE pin can be used to detect a breakdown of the bus some ms before the 3.3V voltage will also break down - the capacitor on the BCU can buffer some milliseconds what gives you enough time to save some persistent data (like minimum / maximum sensor data, status of output, ...).<br><br>
+Typical you have about 50-200ms, but this depends on the power consumption of the module.<br><br>
+Tis is a measurent with a module consuming 8.5ma bus current (about 35mA @3.3V).<br>
+As you can see, there are about 150ms after the SAVE pin is drawn to ground until 3.3V also breaks down.<br>
+Also note, the SAVE pin may bounce.
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/NanoBCU/doc/SAVE_Pin_Timing.png]]<br>
+yellow: 3.3V output of the BCU, blue: SAVE pin
+
 === Version history ===
 
 * V00.10 - first prototype series and first public beta series
