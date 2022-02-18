@@ -5,6 +5,7 @@
 
 The OpenKNX SEN-UP1-8xTH is a very compact 8 channel temperature/humidity(/pressure) KNX sensormodule.<br><br>
 It is part of the [[OpenKNX-UP1]] system and designed for usage in switch boxes inside the wall or behind switches (ger: Unterputzmodul).<br><br>
+Currently it supports SHT2x, SHT3x, BME280 and DS18B20 sensors. Support for almost any digital sensor types (one- or two wire) is possible and may be introduced by 3rd party into the open source firmware.
 
 '''The module is in working prototype status and not yet finished.'''
 
