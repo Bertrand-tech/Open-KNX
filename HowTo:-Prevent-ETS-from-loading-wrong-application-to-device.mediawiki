@@ -1,0 +1,58 @@
+== Scope ==
+This HowTo describes how a OpenKNX device using the OpenKNX stack can be bound to a specific knxprod.<br>
+
+== Problem ==
+If you use the OpenKNX stack like the examples show, ETS will load any knxprod to any device inherited from this examples or created in a similar approach.
+
+== Solution ==
+Make sure the ETS loads only Applications that match the firmware on the physical device.
+
+=== Implementation ===
+There are several ways to solve the problem or to achive the solution, this HowTo shows a pretty simple one.<br><br>
+We use the knxprod's LoadProcedure to check the PID_HARDWRE_TYPE of the device for a specific value and only load the application if the values match. Otherwise, ETS will not load the application and cancel programming.<br>
+Add this to your knxprod's LoadProcedure:
+
+  <LdCtrlCompareProp InlineData="000000001234" ObjIdx="0" PropId="78">
+    <OnError Cause="CompareMismatch" MessageRef="M-00FA_A-0000-00-0000_M-1" />
+  </LdCtrlCompareProp>
+
+And define the message:
+
+  <Messages>
+    <Message Id="M-00FA_A-0000-00-0000_M-1" Name="EM_APmismatch" Text="This application program can only be used for device 1234." />
+  </Messages>
+
+The complete part of the knxprod could look like this:
+  <LoadProcedures>
+      <LoadProcedure MergeId="2">
+      <LdCtrlRelSegment LsmIdx="4" Size="0" Mode="1" Fill="0" AppliesTo="full" />
+      <LdCtrlRelSegment LsmIdx="4" Size="0" Mode="0" Fill="0" AppliesTo="par" />
+          <LdCtrlCompareProp InlineData="000000001234" ObjIdx="0" PropId="78">
+          <OnError Cause="CompareMismatch" MessageRef="M-00FA_A-0000-00-0000_M-1" />
+      </LdCtrlCompareProp>
+      </LoadProcedure>
+      <LoadProcedure MergeId="4">
+      <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="0" Verify="true" AppliesTo="full,par" />
+      </LoadProcedure>
+      <LoadProcedure MergeId="7">
+          <LdCtrlLoadImageProp ObjIdx="1" PropId="27" />
+          <LdCtrlLoadImageProp ObjIdx="2" PropId="27" />
+          <LdCtrlLoadImageProp ObjIdx="3" PropId="27" />
+          <LdCtrlLoadImageProp ObjIdx="4" PropId="27" />
+      </LoadProcedure>
+  </LoadProcedures>
+  <Messages>
+      <Message Id="M-00FA_A-0000-00-0000_M-1" Name="EM_APmismatch" Text="This application program can only be used for device D7." />
+  </Messages>
+
+As a default, the OpenKNX stack has HardwareType 0x00 00 00 00 00 00 set.
+You can change that by simply calling
+
+  uint8_t myhardwareType[] = {0x00, 0x00, 0x00, 0x00, 0x12, 0x34};
+  knx.hardwareType(myhardwareType);
+
+after
+
+  knx.readMemory();
+
+in setup()
