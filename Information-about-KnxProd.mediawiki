@@ -1,0 +1,55 @@
+== Scope ==
+Find here information about KnxProdand how to create your own
+
+=== Loadprocedures ===
+
+
+There are 3 possibilities how a Loadprocedure is created:
+* DefaultProcedure: Loadprocedure from knx_master is used
+* ProductProcedure: Loadprocedure in KnxProd is availible
+* MergeProcedure: combination of procedures from knx_master and KnxProd
+
+
+MergeProcedure in knx_master:
+  <LoadProcedures>
+    <LoadProcedure MergeId="5">
+      <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
+    </LoadProcedure>
+    <LoadProcedure MergeId="4">
+      <LdCtrlRelSegment LsmIdx="4" Size="256" Mode="0" Fill="0" />
+    </LoadProcedure>
+    <LoadProcedure MergeId="1">
+      <LdCtrlCompareProp InlineData="00FA020723" ObjIdx="4" PropId="13">
+        <OnError Cause="CompareMismatch" MessageRef="M-00FA_A-0207-23-E298_M-1" />
+      </LdCtrlCompareProp>
+    </LoadProcedure>
+  </LoadProcedures>
+Procedure in KnxProd:
+  <LoadProcedures>
+    <LoadProcedure MergeId="5">
+      <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
+    </LoadProcedure>
+    <LoadProcedure MergeId="4">
+      <LdCtrlRelSegment LsmIdx="4" Size="256" Mode="0" Fill="0" />
+    </LoadProcedure>
+    <LoadProcedure MergeId="1">
+      <LdCtrlCompareProp InlineData="00FA020723" ObjIdx="4" PropId="13">
+        <OnError Cause="CompareMismatch" MessageRef="M-00FA_A-0207-23-E298_M-1" />
+      </LdCtrlCompareProp>
+    </LoadProcedure>
+  </LoadProcedures>
+This is merged, where LoadProcedure MergeId="x"  is inserted at the place of LdCtrlMerge MergeId="x"<br>
+That is the result:
+  <Procedure ProcedureType="Load" ProcedureSubType="ap1" Access="remote local2">
+    <LdCtrlConnect />
+    <LdCtrlCompareProp InlineData="00FA020723" ObjIdx="4" PropId="13">
+      <OnError Cause="CompareMismatch" MessageRef="M-00FA_A-0207-23-E298_M-1" />
+    </LdCtrlCompareProp>
+    <LdCtrlUnload LsmIdx="4" />
+    <LdCtrlUnload LsmIdx="3" />
+    <LdCtrlUnload LsmIdx="2" />
+    <LdCtrlUnload LsmIdx="1" />
+    <LdCtrlLoad LsmIdx="4" />
+    <LdCtrlRelSegment LsmIdx="4" Size="256" Mode="0" Fill="0" />
+    <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
+  </Procedure>
