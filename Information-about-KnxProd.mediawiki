@@ -1,8 +1,15 @@
 == Scope ==
-Find here information about KnxProdand how to create your own
+Find here information about KnxProd and how to create your own
+
+=== project versions ===
+
+* xmlns="http://knx.org/xml/project/11" für ETS4
+* xmlns="http://knx.org/xml/project/13" für ETS5.5
+* xmlns="http://knx.org/xml/project/14" für ETS5.6
+* xmlns="http://knx.org/xml/project/20" für ETS5.7
+
 
 === Loadprocedures ===
-
 
 There are 3 possibilities how a Loadprocedure is created:
 * DefaultProcedure: Loadprocedure from knx_master is used
@@ -53,3 +60,11 @@ That is the result:
     <LdCtrlRelSegment LsmIdx="4" Size="256" Mode="0" Fill="0" />
     <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
   </Procedure>
+
+=== Tools ===
+
+There are some tools for creating/modifying knxprods:
+
+* [[https://github.com/mumpf/multiply-channels]] Infos [https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1414532-commandline-tool-f%C3%BCr-knx-mit-ets-projekt KNX-User-Forum]
+* [[https://github.com/thelsing/CreateKnxProd]]
+* [[https://github.com/knxprodeditor/KNXprodEditor]]
