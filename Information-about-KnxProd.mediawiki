@@ -1,6 +1,8 @@
 == Scope ==
 Find here information about KnxProd and how to create your own
 
+== Information ==
+
 === project versions ===
 
 * xmlns="http://knx.org/xml/project/11" für ETS4
@@ -61,7 +63,7 @@ That is the result:
     <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
   </Procedure>
 
-=== Tools ===
+== Tools ==
 
 There are some tools for creating/modifying knxprods:
 
