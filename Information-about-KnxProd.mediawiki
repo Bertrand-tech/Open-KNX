@@ -83,6 +83,15 @@ That is the result:
     <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
   </Procedure>
 
+=== OrderNumber ===
+
+welcher wert in der xml entspricht der Bestellnummer im Katalog der ETS ?
+
+Product-Ordernumber. Die ist aber auch ein Teil der Product-Id.
+Deswegen: Sonderzeichen und Minus "-" und Unterstrich "_" müssen in der Product-Id excaped werden, durch Punkt ".", gefolgt vom ASCII-Wert des Zeichen in Hex.
+OrderNumber="15-15", in der Product-Id muss dann "....15.2D15..." stehen.
+
+
 == Tools ==
 
 There are some tools for creating/modifying knxprods:
