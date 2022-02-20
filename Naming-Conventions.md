@@ -41,3 +41,19 @@ all devices should be named reagrding this rules
 * TAS-UP1-TouchRGB
 * LED-REG9-24x24V
 * GW-DALI
+
+## Manufacturer ID 
+
+OpenKNX uses 0x00 FA
+
+##  Hardware Type 
+
+The Hardwaretype Property is 6 bytes long where the first is reserved.  
+OpenKNX uses 0x00 00 Ap xx xx xx  
+where p is unique for one developer  
+and xx is any value
+
+It is recommende to use
+0x00 00 Ap nn vv 00  
+where Ap nn is the ApplicationNumber  
+and vv is the ApplicationVersion 
