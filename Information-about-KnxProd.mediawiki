@@ -22,12 +22,12 @@ we agreed to use 0xA000 to 0xAFFF:
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
-1->0.1
-10 -> 0.10
-15 -> 0.15
-16 -> 1.0
-31 -> 1.15
-32 -> 2.0
+* 1->0.1
+* 10 -> 0.10
+* 15 -> 0.15
+* 16 -> 1.0
+* 31 -> 1.15
+* 32 -> 2.0
 usw. Die machen HighNibble.LowNibble in dezimal...
 
 
