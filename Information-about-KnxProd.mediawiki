@@ -10,6 +10,26 @@ Find here information about KnxProd and how to create your own
 * xmlns="http://knx.org/xml/project/14" für ETS5.6
 * xmlns="http://knx.org/xml/project/20" für ETS5.7
 
+=== ApplicationNumber ===
+
+we agreed to use 0xA000 to 0xAFFF:
+
+* 0xA000 to 0xA0FF : reserved for mumpf
+* 0xA100 to 0xA1FF : reserved for SirSydom
+* 0xA200 to 0xA2FF : reserved for Masifi
+* 0xAF00 to 0xAFFF : reserved for Testing/Debugging etc... (no public usage)
+
+
+=== ApplicationVersion ===
+ApplicationVersion (im XML -> angezeigt in der ETS):
+1->0.1
+10 -> 0.10
+15 -> 0.15
+16 -> 1.0
+31 -> 1.15
+32 -> 2.0
+usw. Die machen HighNibble.LowNibble in dezimal...
+
 
 === Loadprocedures ===
 
