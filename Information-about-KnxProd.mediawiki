@@ -40,19 +40,17 @@ There are 3 possibilities how a Loadprocedure is created:
 
 
 MergeProcedure in knx_master:
-  <LoadProcedures>
-    <LoadProcedure MergeId="5">
-      <LdCtrlWriteRelMem ObjIdx="4" Offset="0" Size="256" Verify="false" />
-    </LoadProcedure>
-    <LoadProcedure MergeId="4">
-      <LdCtrlRelSegment LsmIdx="4" Size="256" Mode="0" Fill="0" />
-    </LoadProcedure>
-    <LoadProcedure MergeId="1">
-      <LdCtrlCompareProp InlineData="00FA020723" ObjIdx="4" PropId="13">
-        <OnError Cause="CompareMismatch" MessageRef="M-00FA_A-0207-23-E298_M-1" />
-      </LdCtrlCompareProp>
-    </LoadProcedure>
-  </LoadProcedures>
+  <Procedure ProcedureType="Load" ProcedureSubType="ap1" Access="remote local2">
+    <LdCtrlConnect />
+    <LdCtrlMerge MergeId="1" />
+    <LdCtrlUnload LsmIdx="4" />
+    <LdCtrlUnload LsmIdx="3" />
+    <LdCtrlUnload LsmIdx="2" />
+    <LdCtrlUnload LsmIdx="1" />
+    <LdCtrlLoad LsmIdx="4" />
+    <LdCtrlMerge MergeId="4" />
+    <LdCtrlMerge MergeId="5" />
+  </Procedure>
 Procedure in KnxProd:
   <LoadProcedures>
     <LoadProcedure MergeId="5">
