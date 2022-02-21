@@ -14,11 +14,16 @@ Find here information about KnxProd and how to create your own
 
 we agreed to use 0xA000 to 0xAFFF:
 
-* 0xA000 to 0xA0FF : reserved for mumpf
-* 0xA100 to 0xA1FF : reserved for SirSydom
-* 0xA200 to 0xA2FF : reserved for Masifi
-* 0xAF00 to 0xAFFF : reserved for Testing/Debugging etc... (no public usage)
+* 0xA000 to 0xA0FF (40960 to 41215): reserved for mumpf
+* 0xA100 to 0xA1FF (41216 to 41471): reserved for SirSydom
+* 0xA200 to 0xA2FF (41472 to 41727): reserved for Masifi
+* 0xAF00 to 0xAFFF (44800 to 45055): reserved for Testing/Debugging etc... (no public usage)
 
+Following ApplicationNumbers are also in use (legacy numbers, need to be the old ones for compatibility):
+* 0x66 (102) - Logicmodule (mumpf)
+* 0x6A (106) - Sensormodule (mumpf)
+* 0x6F (111) - WireGateway (mumpf)
+* 0xCB (203) - EnocenGateway (masifi)
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
