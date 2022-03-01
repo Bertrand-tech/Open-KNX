@@ -6,6 +6,11 @@ OpenKNX ist ein offenes Projekt rund um die Entwicklung von freien (im Sinne von
 Unser Ziel ist die Umsetzung von weitgehend standardkonformen KNX Geräten.
 
 
+### Projektstatus
+
+Wir sind aktuell dabei das Projekt aufzubauen und bestehende Projekte zu migrieren.  
+Fragen und Themen zu vorhandenen Komponenten wie dem knx stack, KaeNX oder NanoBCU incl. Zubehör könnt ihr gerne in diesem Unterforum stellen
+
 
 ### Wer seid ihr ?
 
