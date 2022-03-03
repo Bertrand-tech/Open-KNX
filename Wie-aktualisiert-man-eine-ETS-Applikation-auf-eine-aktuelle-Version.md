@@ -1,4 +1,4 @@
-# Wie aktualisiert man eine ETS-Applikation auf eine aktuelle Version
+## Einleitung
 
 Die ETS bietet eine Möglichkeit, alte Applikationsversionen auf eine aktuelle Version zu aktualieren, ohne die KO-Zuordnungen und Parameteter zu verlieren. Allerdings muss die Applikation dafür vorbereitet sein. 
 
