@@ -42,6 +42,15 @@ all devices should be named reagrding this rules
 * LED-REG9-24x24V
 * GW-DALI
 
+## Software modules
+
+OpenKNX will also provide reusable software modules, which can be adopted to community hardware.
+The following prefixes will classify the repositories:
+
+* OAM - OpenKNX Application Module - Contains usually a complete application (firmware and ETS-Application), which can be combined with other OAM, but can also be used standalone
+* OFM - OpenKNX Function Module - Contains usually a reusable part for an application (firmware and ETS-parts) like an IO-channel or a humidity sensor. Can be used in an own application or as an implementation idea.
+* OGM - OpenKNX Generic Module - any generic or common implementations used in OpenKNX
+
 ## Manufacturer ID 
 
 OpenKNX uses 0x00 FA
