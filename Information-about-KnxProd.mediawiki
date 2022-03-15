@@ -19,11 +19,13 @@ we agreed to use 0xA000 to 0xAFFF:
 * 0xA200 to 0xA2FF (41472 to 41727): reserved for Masifi
 * 0xAF00 to 0xAFFF (44800 to 45055): reserved for Testing/Debugging etc... (no public usage)
 
-Following ApplicationNumbers are also in use (legacy numbers, need to be the old ones for compatibility):
-* 0x66 (102) - Logicmodule (mumpf)
-* 0x6A (106) - Sensormodule (mumpf)
-* 0x6F (111) - WireGateway (mumpf)
-* 0xCB (203) - EnocenGateway (masifi)
+Following ApplicationNumbers are already in use:
+
+* 0xA000 (40960) - LogicModule (mumpf)
+* 0xA010 (40976) - SensorModule (mumpf)
+* 0xA020 (40992) - OneWireGateway (mumpf)
+* 0xA030 (41008) - PresenceModule (mumpf)
+* 0xA200 (41472) - EnocenGateway (masifi)
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
