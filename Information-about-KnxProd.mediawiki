@@ -26,6 +26,7 @@ Following ApplicationNumbers are already in use:
 * 0xA020 (40992) - OneWireGateway (mumpf)
 * 0xA030 (41008) - LogicModule (mumpf)
 * 0xA200 (41472) - EnocenGateway (masifi)
+* 0xA210 (41488) - GardenControl (masifi)
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
