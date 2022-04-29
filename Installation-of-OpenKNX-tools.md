@@ -28,3 +28,7 @@ The executables in tools are:
 * OpenKNXproducer.exe - a tool to create a knxprod-File, which can be imported in ETS. The source is available [here](https://github.com/OpenKNX/OpenKNXproducer).
 * bossac.exe - a tool to upload firmware to an SAMD microcontroller. The source is available [here](https://github.com/shumatech/BOSSA)
 
+## Remarks
+
+OpenKNXproducer.exe needs a working ETS-Installation on the same PC installed at the standard location of ETS. ETS 5.6 is minimum, ETS 5.7.x and ETS 6 are supported. A Demo-License is sufficient. It does not work with a clean install of ETS. At least one (empty) Project has to be created with the ETS installation.
+ 
