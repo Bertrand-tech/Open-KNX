@@ -30,5 +30,5 @@ The executables in tools are:
 
 ## Remarks
 
-OpenKNXproducer.exe needs a working ETS-Installation on the same PC installed at the standard location of ETS. ETS 5.6 is minimum, ETS 5.7.x and ETS 6 are supported. A Demo-License is sufficient. It does not work with a clean install of ETS. At least one (empty) Project has to be created with the ETS installation.
+OpenKNXproducer.exe needs a working ETS-Installation on the same PC installed at the standard location of ETS. ETS 5.6 is minimum, ETS 5.7.x and ETS 6 are supported. A Demo-License is sufficient. It does not work with a clean install of ETS. At least one (empty) Project must have been created with this installed ETS.
  
