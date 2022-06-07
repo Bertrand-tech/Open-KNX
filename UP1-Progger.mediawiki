@@ -37,6 +37,10 @@ Solder the 8x1.27 female pin header and the Progger is ready to use. For debuggi
 
 == Pictures ==
 V00.20:
+
 [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.20_3D_SMD.png]]
+
+
 V00.10:
+
 [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.10_top.jpg]]
