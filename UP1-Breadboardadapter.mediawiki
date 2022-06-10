@@ -7,7 +7,7 @@
 |-
 | The UP1-Breadboardadapter is part of the [[OpenKNX UP1]] system mainly meant for developing purposes.<br>
 With the UP1-Breadboardadapter a [[UP1-Controller2040]] can be connected to a standard 2.54 breadboard.
-| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Progger_V00.10_top.jpg|width=200px]]
+| [[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Breadboardadapter_V00.01_PCB_3D_assembled.png|width=200px]]
 |}
 
 == Ressources ==
@@ -30,4 +30,6 @@ Use 1.27 female header and 2.54 pin header or adapt to your needs.
 
 
 == Pictures ==
+[[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Breadboardadapter_V00.01_PCB_3D.png]]
 
+[[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/doc/UP1-Breadboardadapter_V00.01_PCB_3D_assembled.png]]
