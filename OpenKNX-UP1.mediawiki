@@ -25,7 +25,8 @@ Things that help you develop an own UP1 device
 
 * [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/EDA-Files/UP1-AppTemplate UP1-AppTemplate]: a KiCAD template project to develop an own application PCB
 * [[OpenKNX-KiCad-Lib]]: a KiCAD symbol and footprint library with 3D-modells
-* [https://github.com/OpenKNX/OpenKNX-UP1/tree/main/hardware/CAD-Files/UP1-Case UP1-Case]: a 3D model of a 3D-printable case. Available as STL or CATIA
+* [[ UP1-Case]]: a 3D model of a 3D-printable case. Available as STL or CATIA
+* [[UP1-Breadboardadapter]]: supports hardware developement (UP1-Applications) on breadboard
 * example sketch
 
 == Repository ==
