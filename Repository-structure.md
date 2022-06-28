@@ -50,4 +50,5 @@ tbd
 | [Organization](https://github.com/OpenKNX/Organization) | internal project information |
 | [OpenKNX-UP1](https://github.com/OpenKNX/OpenKNX-UP1) |  OpenKNX UP1 system |
 | [OpenKNX-KiCad-Lib](https://github.com/OpenKNX/OpenKNX-KiCad-Lib) |  OpenKNX KiCAD Lib |
+| [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator) | Simple creator for KnxProducts |
 | [Kaenx-Konnect](https://github.com/OpenKNX/Kaenx-Konnect) | Kaenx.Konnekt C#.Net KNX stack for PC |
