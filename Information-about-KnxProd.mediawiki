@@ -103,5 +103,6 @@ OrderNumber="15-15", in der Product-Id muss dann "....15.2D15..." stehen.
 There are some tools for creating/modifying knxprods:
 
 * [[https://github.com/mumpf/multiply-channels]] Infos [https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1414532-commandline-tool-f%C3%BCr-knx-mit-ets-projekt KNX-User-Forum]
+* [[https://github.com/OpenKNX/Kaenx-Creator]]
 * [[https://github.com/thelsing/CreateKnxProd]]
 * [[https://github.com/knxprodeditor/KNXprodEditor]]
