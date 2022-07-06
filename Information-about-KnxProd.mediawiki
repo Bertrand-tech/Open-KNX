@@ -9,6 +9,7 @@ Find here information about KnxProd and how to create your own
 * xmlns="http://knx.org/xml/project/13" für ETS5.5
 * xmlns="http://knx.org/xml/project/14" für ETS5.6
 * xmlns="http://knx.org/xml/project/20" für ETS5.7
+* xmlns="http://knx.org/xml/project/21" für ETS6.0
 
 === ApplicationNumber ===
 
