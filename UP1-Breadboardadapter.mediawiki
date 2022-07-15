@@ -24,6 +24,9 @@ You can get a PCB [http://shop.sirsydom.de here] for a donation.
 
 [https://github.com/OpenKNX/OpenKNX-UP1/blob/main/hardware/EDA-Files/UP1-Breadboardadapter/UP1-Breadboardadapter_V00.01_gerbers.zip Gerber files V00.01] are availible in the repository.
 
+Parts:
+[https://www.reichelt.de/my/1963274 Reichelt BOM]
+
 == Assembly ==
 
 Use 1.27 female header and 2.54 pin header or adapt to your needs.
