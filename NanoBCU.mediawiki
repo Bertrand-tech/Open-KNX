@@ -18,7 +18,9 @@
 
 
 == Sourcing ==
-You can get soldering kits with almost all parts already be soldered [http://shop.sirsydom.de here] for a donation. Some soldering skills are still  neccessary.
+You can get soldering kits with all TOP parts already be soldered [http://shop.sirsydom.de here] for a donation. Some soldering skills are still  neccessary.
+
+There is also a variant availible with all components already be soldered now.
 
 == Final assembly ==
 
