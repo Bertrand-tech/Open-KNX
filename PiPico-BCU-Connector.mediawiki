@@ -21,6 +21,12 @@ The PiPico BCU COnnector is meant for rapid building of KNX devices with no or v
 
 Be carefull: never connect to USB and KNX simultaneously without using a USB isolator.
 
+== Precompiled Firmware ==
+
+There is a precompiled firmware available:
+
+* '''OpenKNX-LogicModule:''' Turns PiPico BCU Connector in a KNX native logicmodule with 99 logic channels. You can find firmware files [https://github.com/OpenKNX/OAM-LogicModule/releases/tag/0.10-Beta here], German application description [https://github.com/OpenKNX/OAM-LogicModule/blob/main/doc/Applikationsbeschreibung-Logik.md here] and the German support forum [https://knx-user-forum.de/forum/projektforen/openknx/1765082-openknx-logikmodul-release here]. 
+
 == Sourcing  ==
 
 You can get PCBs [http://shop.sirsydom.de here] for a donation.
