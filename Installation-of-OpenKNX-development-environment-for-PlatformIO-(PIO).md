@@ -6,7 +6,7 @@ Set your Windows to "Developer Mode" [as described here](https://consumer.huawei
 
 > **Information:** Developer Mode allows you to work with symbolic links in Windows without administrator privileges. OpenKNX PIO projects use symbolic links and developer mode makes it easy to work with. If you don't want or are not allowed to use developer mode, you can still compile OpenKNX PIO projects, but then you have to ensure, that all github clone operations are executed from a Windows Command Prompt (cmd) with administrator privileges. Other shells (like git bash) will not work with symlinks without developer mode.
 
-Download and install git from [https://git-scm.com/downloads](https://git-scm.com/downloads) with symbolic link support. This is one of the last advanced settings in the whole sequence of settings:
+Download and install git from [https://git-scm.com/downloads](https://git-scm.com/downloads) with symbolic link support. This is one of the last advanced settings in the whole sequence of settings and the only one that has to be changed from the default:
 
 ![Git-Settings](https://user-images.githubusercontent.com/14316138/192711629-a89ecbe9-4158-441d-81b8-ef08c4b24b85.png)
  
@@ -17,6 +17,10 @@ Go to a console window (i.e. Command Prompt/Eingabeaufforderung, Win+R cmd) and 
     git config --global core.symlinks true
 
 > **IMPORTANT:** The above command has no effect, if git was not installed with "Enable symbolic links" option.
+
+The actual status can be verified using the following command:
+
+    git config --global core.symlinks
 
 Download and install the newest release of OpenKNX-Tools from [https://github.com/OpenKNX/OpenKNXproducer/releases](https://github.com/OpenKNX/OpenKNXproducer/releases) according to installation instructions described in OpenKNX-Wiki [https://github.com/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-tools](https://github.com/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-tools)
 
@@ -62,6 +66,6 @@ You should see some files indicating, that they are links to other directories. 
     22.09.2022  15:18    <SYMLINKD>     OGM-Common [..\..\OGM-Common]
     22.09.2022  15:18    <SYMLINKD>     OGM-SensorDevices [..\..\OGM-SensorDevices]
 
-If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong and you should start over.
+If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong and you should start over by deleting the whole OAM-LogicModule-Directory and redo the verification steps again - or even all installation steps. 
 
 > **IMPORTANT** Be careful, the filetype might be \<SYMLINK\> missing the "D", this is wrong but can be easily overlooked.
