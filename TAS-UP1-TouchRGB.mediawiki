@@ -5,7 +5,9 @@
 
 The OpenKNX TAS-UP1-TouchRGB is a modular switch sensor with up to 16 Touch Keys, 16 RGB LED, 10 binary inputs and a I2C sensor interface.<br><br>
 It is part of the [[OpenKNX-UP1]] system and designed for usage in switch boxes inside the wall or behind switches (ger: Unterputzmodul).<br><br>
-Currently it supports SHT2x, SHT3x, BME280 and DS18B20 sensors. Support for almost any digital sensor types (one- or two wire) is possible and may be introduced by 3rd party into the open source firmware.
+It can be used as a Touch-Switch with one or up to two Touchpanels with up to 8 switches/LEDs each.<br><br>
+The sensor interface is meant to connect an air quality sensor.<br><br>
+The 10 binary inputs can be used additionally or without the touch functionality - e.g. for connecting reed contacts for windows or to connect "normal" tactile switches like GIRA 14700<br><br>
 
 '''The module is in working prototype status and not yet finished.'''
 
