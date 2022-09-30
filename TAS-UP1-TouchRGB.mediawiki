@@ -1,0 +1,39 @@
+== Description ==
+
+[[https://github.com/OpenKNX/SEN-UP1-8xTH/blob/main/doc/KUPS-SNS-8xTH_V00.01_w_Case_wiki.jpg|height=400px]]
+[[https://github.com/OpenKNX/SEN-UP1-8xTH/blob/main/doc/SEN-UP1-8xTH_V00.02_3D_top.png|height=400px]]
+
+The OpenKNX TAS-UP1-TouchRGB is a modular switch sensor with up to 16 Touch Keys, 16 RGB LED, 10 binary inputs and a I2C sensor interface.<br><br>
+It is part of the [[OpenKNX-UP1]] system and designed for usage in switch boxes inside the wall or behind switches (ger: Unterputzmodul).<br><br>
+Currently it supports SHT2x, SHT3x, BME280 and DS18B20 sensors. Support for almost any digital sensor types (one- or two wire) is possible and may be introduced by 3rd party into the open source firmware.
+
+'''The module is in working prototype status and not yet finished.'''
+
+== Sourcing ==
+
+In the future you can get PCBs [http://shop.sirsydom.de here] for a donation.<br>
+
+=== Case ===
+
+
+== User Documentation ==
+
+=== Assembly ===
+
+=== Firmware ===
+
+=== Ressources ===
+
+
+
+== Developer Documentation ==
+
+=== Version history ===
+
+
+
+== Links ==
+
+
+
+== Pictures ==
