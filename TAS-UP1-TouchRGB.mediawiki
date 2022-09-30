@@ -61,6 +61,26 @@ Application:
 * Touch-Alert: GPIO_19 (pulled down if any of the touch controller detects an event)
 
 
+Touch6_LED_55 - XW08B:
+* Button 1 (top left): T5/PAD1 (Bit #? in data byte)
+* Button 2 (top right): T6/PAD5 (Bit #? in data byte)
+* Button 3 (middle left): T3/PAD0 (Bit #? in data byte)
+* Button 4 (middle right): T4/PAD4 (Bit #? in data byte)
+* Button 5 (bottom left): T1/PAD2 (Bit #? in data byte)
+* Button 6 (bottom right): T2/PAD3 (Bit #? in data byte)
+
+* LED 1 (top left): D2 (Pixel #1)
+* LED 2 (top right): D3 (Pixel #2)
+* LED 3 (middle left): D1 (Pixel #0)
+* LED 4 (middle right): D4 (Pixel #3)
+* LED 5 (bottom left): D6 (Pixel #5)
+* LED 6 (bottom right): D5 (Pixel #4)
+
+=== Libraries ===
+
+for the LEDs Adafruit_NeoPixel lib can be used.
+
+
 === Version history ===
 
 
