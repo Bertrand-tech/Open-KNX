@@ -28,6 +28,37 @@ In the future you can get PCBs [http://shop.sirsydom.de here] for a donation.<br
 
 == Developer Documentation ==
 
+=== HW / SW Interface ===
+
+Controller:
+* Prog-LED: GPIO_06 (high active)
+* Prog-Button: GPIO_07 (low active, no hw-debounce)
+* KNX-SAVE: GPIO_05
+* KNX_TX: GPIO_00
+* KNX_RX: GPIO_01
+
+Application:
+* Binary Input 01: GPIO_29
+* Binary Input 02: GPIO_28
+* Binary Input 03: GPIO_27
+* Binary Input 04: GPIO_26
+* Binary Input 05: GPIO_25
+* Binary Input 06: GPIO_24
+* Binary Input 07: GPIO_22
+* Binary Input 08: GPIO_21
+* Binary Input 09: GPIO_20
+* Binary Input 10: GPIO_13
+
+* LED-Data Line: GPIO_18 (WS2812 Digital RGB LED)
+
+* SDA (for Sensor): GPIO_14
+* SCL (for Sensor): GPIO_15
+* SDA (for Touchcontroller): GPIO_16
+* SCL (for Touchcontroller): GPIO_17
+* SDA-Select (switch between primary and secondary touch controller): GPIO_23 (low: primary controller, high: secondary controller)
+* Touch-Alert: GPIO_19 (pulled down if any of the touch controller detects an event)
+
+
 === Version history ===
 
 
