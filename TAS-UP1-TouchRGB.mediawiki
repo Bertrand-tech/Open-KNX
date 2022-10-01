@@ -3,11 +3,11 @@
 [[media/TAS-UP1-TouchRGB_Proto01_PCB.jpg|height=400px]]
 [[media/TAS-UP1-TouchRGB_Proto01_Touch.jpg|height=400px]]
 
-The OpenKNX TAS-UP1-TouchRGB is a modular switch sensor with up to 16 Touch Keys, 16 RGB LED, 10 binary inputs and a I2C sensor interface.<br><br>
+The OpenKNX TAS-UP1-TouchRGB is a modular switch sensor with up to 16 Touch Keys, 16 RGB LED, 8 binary inputs and a I2C sensor interface.<br><br>
 It is part of the [[OpenKNX-UP1]] system and designed for usage in switch boxes inside the wall or behind switches (ger: Unterputzmodul).<br><br>
 It can be used as a Touch-Switch with one or up to two Touchpanels with up to 8 switches/LEDs each.<br><br>
 The sensor interface is meant to connect an air quality sensor.<br><br>
-The 10 binary inputs can be used additionally or without the touch functionality - e.g. for connecting reed contacts for windows or to connect "normal" tactile switches like GIRA 14700<br><br>
+The 8 binary inputs can be used additionally or without the touch functionality - e.g. for connecting reed contacts for windows or to connect "normal" tactile switches like GIRA 14700<br><br>
 
 '''The module is in working prototype status and not yet finished.'''
 
@@ -46,19 +46,21 @@ Application:
 * Binary Input 04: GPIO_26
 * Binary Input 05: GPIO_25
 * Binary Input 06: GPIO_24
-* Binary Input 07: GPIO_22
-* Binary Input 08: GPIO_21
-* Binary Input 09: GPIO_20
-* Binary Input 10: GPIO_13
+* Binary Input 07: GPIO_21
+* Binary Input 08: GPIO_20
 
 * LED-Data Line: GPIO_18 (WS2812 Digital RGB LED)
 
 * SDA (for Sensor): GPIO_14
 * SCL (for Sensor): GPIO_15
+
 * SDA (for Touchcontroller): GPIO_16
 * SCL (for Touchcontroller): GPIO_17
-* SDA-Select (switch between primary and secondary touch controller): GPIO_23 (low: primary controller, high: secondary controller)
+* SDA (for Touchcontroller sec.): GPIO_22
+* SCL (for Touchcontroller sec.): GPIO_23
 * Touch-Alert: GPIO_19 (pulled down if any of the touch controller detects an event)
+
+* Switch_3V3: enable or disable 3V3 voltage supply for binary inputs and sensor (low active)
 
 
 Touch6_LED_55 - XW08B:
@@ -75,6 +77,9 @@ Touch6_LED_55 - XW08B:
 * LED 4 (middle right): D4 (Pixel #3)
 * LED 5 (bottom left): D6 (Pixel #5)
 * LED 6 (bottom right): D5 (Pixel #4)
+
+the Touch-PCBs with LEDs and Touchinterface are supplied by VCC2 / 5V and therefor can be enabled or disabled by using the VCC2 control of the NCN on the BCU.
+
 
 === Libraries ===
 
