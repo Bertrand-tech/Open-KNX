@@ -16,8 +16,10 @@ An UP1 device consists of a controller pcb with MCU, Flash, KNX-Connector and BC
 
 == Devices ==
 
-* [[LED-UP1-6x24V]]
-* [[SEN-UP1-8xTH]]
+* [[SEN-UP1-8xTH]] - a 8channel temperature/humidty sensor
+* [[TAS-UP1-Touch_BE]] - a modular Touch sensor with RGB status LEDs, temperature/humidty sensor and 8 binary inputs
+* [[LED-UP1-6x24V]] - a 6channel PWM LED controller for CV LED
+
 
 == Framework ==
 
