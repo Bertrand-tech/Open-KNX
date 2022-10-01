@@ -3,7 +3,7 @@
 [[media/TAS-UP1-TouchRGB_Proto01_PCB.jpg|height=400px]]
 [[media/TAS-UP1-TouchRGB_Proto01_Touch.jpg|height=400px]]
 
-The OpenKNX TAS-UP1-TouchRGB_BE is a modular switch sensor with up to 16 Touch Keys, 16 RGB LED, 8 binary inputs and a I2C sensor interface.<br><br>
+The OpenKNX TAS-UP1-Touch_BE is a modular switch sensor with up to 16 Touch Keys, 16 RGB LED, 8 binary inputs and a I2C sensor interface.<br><br>
 It is part of the [[OpenKNX-UP1]] system and designed for usage in switch boxes inside the wall or behind switches (ger: Unterputzmodul).<br><br><br>
 It can be used mounted on top of a wall mount (de: Unterputzdose) as base for a touch interface - there is a PCB frame enabling that.<br>
 In that case it can be used with one or up to two touch interfaces with up to 8 switches/LEDs each.<br>
