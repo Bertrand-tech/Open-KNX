@@ -26,6 +26,8 @@ In the future you can get PCBs [http://shop.sirsydom.de here] for a donation.<br
 
 === Assembly ===
 
+To enable a firmware update in a mounted state when using the wall mount frame, it is recommended to solder J101 on the [[UP1-Controller2040]] on TOP instead of BOT and use a 01x08 1.27mm THT female pin header instead of a male one.
+
 === Firmware ===
 
 === Ressources ===
