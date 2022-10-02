@@ -42,7 +42,7 @@ Now you have all parts installed to checkout and build an OpenKNX PIO project.
 
 Open your favorite shell
 
-> **IMPORTANT:** If you are not useing developer mode, it has to be Windows Command Prompt (cmd) with administrator privileges.
+> **IMPORTANT:** If you are not using developer mode, it has to be Windows Command Prompt (cmd) with administrator privileges.
 
 Go to your favorite development directory. For PIO the default is ~/Documents/PlatformIO/Projects
 
@@ -51,11 +51,14 @@ Create a directory OpenKNX and go to this directory
     mkdir OpenKNX
     cd OpenKNX
 
-Clone an OpenKNX PIO project (in this case it is the OpenKNX LogicModule):
+Clone the following OpenKNX PIO projects:
 
+    git clone https://github.com/thelsing/knx.git
+    git clone https://github.com/OpenKNX/OGM-Common.git
+    git clone https://github.com/OpenKNX/OGM-SensorDevices.git
     git clone https://github.com/OpenKNX/OAM-LogicModule.git
 
-Go to the lib directory of cloned project and look at its content
+Go to the lib directory of cloned LogicModule-project and look at its content
 
     cd OAM-LogicModule/lib
     dir
@@ -66,6 +69,14 @@ You should see some files indicating, that they are links to other directories. 
     22.09.2022  15:18    <SYMLINKD>     OGM-Common [..\..\OGM-Common]
     22.09.2022  15:18    <SYMLINKD>     OGM-SensorDevices [..\..\OGM-SensorDevices]
 
-If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong and you should start over by deleting the whole OAM-LogicModule-Directory and redo the verification steps again - or even all installation steps. 
+If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong and you should start over by deleting the whole OpenKNX-Directory and redo the verification steps again - or even all installation steps. 
 
 > **IMPORTANT** Be careful, the filetype might be \<SYMLINK\> missing the "D", this is wrong but can be easily overlooked.
+
+The known cases for a missing \<SYMLINKD\>:
+
+* git was installed/reinstalled without the symbolic link support
+* Developer Mode is off
+* one (or more) of the above **git clone** commands failed
+* the setting **git config --global core.symlinks true** did not work
+* the setting **git config --global core.symlinks true** worked, but is overridden by a user setting **git config --user core.symlinks false** or a workspace setting **git config core.symlinks false** 
