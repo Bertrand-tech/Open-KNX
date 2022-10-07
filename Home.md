@@ -24,6 +24,7 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
  - [Information about KnxProd](/OpenKNX/OpenKNX/wiki/Information-about-KnxProd)
  - [How to prevent ETS from loading wrong application to device](/OpenKNX/OpenKNX/wiki/How-to-prevent-ETS-from-loading-wrong-application-to-device)
  - [Wie aktualisiert man eine ETS Applikation auf eine aktuelle Version](/OpenKNX/OpenKNX/wiki/Wie-aktualisiert-man-eine-ETS-Applikation-auf-eine-aktuelle-Version)
+  - [Kaenx-Creator Wiki](https://github.com/OpenKNX/Kaenx-Creator/wiki)
 
  
 ### PCBs
