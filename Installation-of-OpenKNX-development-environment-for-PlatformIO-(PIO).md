@@ -55,7 +55,6 @@ Clone the following OpenKNX PIO projects:
 
     git clone https://github.com/thelsing/knx.git
     git clone https://github.com/OpenKNX/OGM-Common.git
-    git clone https://github.com/OpenKNX/OGM-SensorDevices.git
     git clone https://github.com/OpenKNX/OAM-LogicModule.git
 
 Go to the lib directory of cloned LogicModule-project and look at its content
@@ -67,7 +66,6 @@ You should see some files indicating, that they are links to other directories. 
 
     22.09.2022  15:18    <SYMLINKD>     knx [..\..\knx]
     22.09.2022  15:18    <SYMLINKD>     OGM-Common [..\..\OGM-Common]
-    22.09.2022  15:18    <SYMLINKD>     OGM-SensorDevices [..\..\OGM-SensorDevices]
 
 If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong and you should start over by deleting the whole OpenKNX-Directory and redo the verification steps again - or even all installation steps. 
 
