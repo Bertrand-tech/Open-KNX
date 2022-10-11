@@ -30,7 +30,7 @@ Following ApplicationNumbers are already in use:
 * 0xA200 (41472) - EnocenGateway (masifi)
 * 0xA210 (41488) - GardenControl (masifi)
 * 0xA220 (41504) - 28CH Binäreingang (masifi)
-* 0xA230 (41504) - ModbusGateway (masifi)
+* 0xA230 (41520) - ModbusGateway (masifi)
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
