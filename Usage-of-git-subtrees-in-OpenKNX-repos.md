@@ -16,6 +16,8 @@ git subtree add --prefix lib/OAM-LogicModule subtree-OAM-LogicModule main --squa
 ```
 
 ## update the subtree
+
+pull the latest commit from master branch into the subtree
 ```
 git subtree pull --prefix lib/knx subtree-knx master --squash
 ```
