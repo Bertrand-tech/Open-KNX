@@ -27,3 +27,7 @@ git subtree pull --prefix lib/knx subtree-knx master --squash
 git commit
 git subtree push --prefix lib/OGM-Common subtree-OGM-Common main
 ```
+
+
+# Links
+https://gist.github.com/SKempin/b7857a6ff6bddb05717cc17a44091202
