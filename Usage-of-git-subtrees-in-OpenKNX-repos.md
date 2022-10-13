@@ -21,3 +21,9 @@ pull the latest commit from master branch into the subtree
 ```
 git subtree pull --prefix lib/knx subtree-knx master --squash
 ```
+
+## commit / push changes in the subtree to its repo
+```
+git commit
+git subtree push --prefix lib/OGM-Common subtree-OGM-Common main
+```
