@@ -40,7 +40,8 @@ Screw and nut for the case M2x14 (DIN 963) and BM2 nut (DIN 439)
 
 == Links ==
 
-[https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1686600-diy-8fach-sensormodul-temp-hum-press-sns-8xth KNX User Forum]
+* [https://knx-user-forum.de/forum/projektforen/openknx/1804897-sen-up1-8xth-8fach-sensormodul-f%C3%BCr-temperatur-luftfeuchte-und-luftdrucksensoren KNX User Forum]
+* [https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1686600-diy-8fach-sensormodul-temp-hum-press-sns-8xth KNX User Forum]
 
 == Pictures ==
 
