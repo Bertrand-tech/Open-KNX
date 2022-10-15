@@ -6,8 +6,8 @@
 * **[KnxProd](https://github.com/OpenKNX/OpenKNX/wiki#knxprod)**
 
 # PCBs
-* **[Connector ItsyBitsy BCU](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)**
-* **[Connector PiPico BCU](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector)**
+* **[ItsyBitsy BCU Connector ](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)**
+* **[iPico BCU Connector ](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector)**
 * **[Nano BCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU)**
 * **[Raspi HAT](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-RasPi-HAT)**
 * **[UP1 Breadboard Adapter](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Breadboardadapter)**
