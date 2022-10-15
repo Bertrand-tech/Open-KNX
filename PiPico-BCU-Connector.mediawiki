@@ -14,6 +14,8 @@
 == Version history ==
 
 * V00.02: added missing 3v3 to reset circuit, added mounting holes, added OpenKNX logo
+* V00.03: added additional footprints for Prog-LED, Prog-Switch and Reset Switch on BOT
+* V00.04: no changes (will likely never be produced)
 
 == Usage ==
 
@@ -31,7 +33,6 @@ There is a precompiled firmware available:
 
 You can get PCBs [http://shop.sirsydom.de here] for a donation.
 
-[https://github.com/OpenKNX/OpenKNX-UP1/blob/main/hardware/EDA-Files/UP1-Progger/UP1-Progger_V00.10_gerbers.zip Gerber files V00.10] are availible in the repository.
 
 == Assembly ==
 
@@ -47,6 +48,10 @@ You can get PCBs [http://shop.sirsydom.de here] for a donation.
 * D2: SMAJ40CA, replace for SMAJ40CA on BCU
 
 == Pictures ==
+
+=== V00.04 ===
+(V00.03 is almost identical)
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.04_3D_bot.png]]
 
 === V00.02 ===
 
