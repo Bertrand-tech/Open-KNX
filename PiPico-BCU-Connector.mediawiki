@@ -54,9 +54,31 @@ You can get PCBs [http://shop.sirsydom.de here] for a donation.
 
 There is a 3D-printable case availible that can be printed by yourself or may be availible [http://shop.sirsydom.de here].
 
-STLs:
+{| class="wikitable"
+|+ Compatibility
+|-
+! scope="col"| Case \ PCB
+! scope="col"| V00.01
+! scope="col"| V00.02
+! scope="col"| V00.03
+! scope="col"| V00.04
+|-
+! scope="row"| 001
+| no
+| no
+| yes
+| yes
+|}
+
+=== STL files ===
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/PiPico-Case/OpenKNX-PiPico_Case_bot_001.stl OpenKNX-PiPico_Case_bot_001.stl]
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/PiPico-Case/OpenKNX-PiPico_Case_top_001.stl OpenKNX-PiPico_Case_top_001.stl]
+
+=== Case pictures ===
+
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/Pictures/PiPico-Case_001_001.jpg|width=300px]]
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/Pictures/PiPico-Case_001_002.jpg|width=300px]]
+[[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/Pictures/PiPico-Case_001_003.jpg|width=300px]]
 
 == Pictures ==
 
