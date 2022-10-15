@@ -10,6 +10,9 @@
 
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_schematic_V00.01.png Schematic V00.01]
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.02.sch.pdf Schematic V00.02]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.03.sch.pdf Schematic V00.03]
+
+
 
 == Version history ==
 
@@ -39,18 +42,28 @@ You can get PCBs [http://shop.sirsydom.de here] for a donation.
 * U1: Raspberry Pi Pico MCU Board.
 * GN1: [[NanoBCU]] or MicroBCU connected with 2.54 pin headers
 * J1: KNX-Connector pins (Reichelt: WAGO 243-131)
-* SW1 und SW2: SMD push button 3.3x2.5 (e.g. XUNPU TS-1089S-02526)
-* C1: 0805 SMD MLCC 330pF
-* R1: 0805 SMD resistor 2k2
-* R2: 0805 SMD resistor 220
-* R3: 0805 SMD resistor 1k
-* D1: 0805 LED (e.g Reichelt SMD-LED 0805 RT)
+* SW1-4: SMD push button 3.3x2.5 (e.g. XUNPU TS-1089S-02526)
+* C1/C2: 0805 SMD MLCC 330pF
+* R1/R4: 0805 SMD resistor 2k2
+* R2/R5: 0805 SMD resistor 220
+* R3/R6: 0805 SMD resistor 1k
+* D1/D3: 0805 LED (e.g Reichelt SMD-LED 0805 RT)
 * D2: SMAJ40CA, replace for SMAJ40CA on BCU
+
+== Case ==
+
+There is a 3D-printable case availible that can be printed by yourself or may be availible [http://shop.sirsydom.de here].
+
+STLs:
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/PiPico-Case/OpenKNX-PiPico_Case_bot_001.stl OpenKNX-PiPico_Case_bot_001.stl]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/PiPico-Case/OpenKNX-PiPico_Case_top_001.stl OpenKNX-PiPico_Case_top_001.stl]
 
 == Pictures ==
 
 === V00.04 ===
 (V00.03 is almost identical)
+
+
 [[https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.04_3D_bot.png]]
 
 === V00.02 ===
