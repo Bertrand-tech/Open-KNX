@@ -39,7 +39,7 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
 
 ### Accessories / Adapters
  - [BCU Breadboard Adapter](https://github.com/OpenKNX/OpenKNX/wiki/BCU-Breadboard-Adapter)
- - [tsyBitsy BCU Connector ](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)
+ - [ItsyBitsy BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)
  - [PiPico BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector)
  - [UP1 Breadboard Adapter](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Breadboardadapter)
  - [UP1 Case](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Case)
