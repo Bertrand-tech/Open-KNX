@@ -15,12 +15,28 @@ git remote add -f subtree-OAM-LogicModule https://github.com/OpenKNX/OAM-LogicMo
 git subtree add --prefix lib/OAM-LogicModule subtree-OAM-LogicModule main --squash
 ```
 
+use specific releases:
+```
+git subtree add --prefix lib/OAM-LogicModule subtree-OAM-LogicModule 0.12.1-Beta --squash
+```
+
+
 ## update the subtree
 
 pull the latest commit from master branch into the subtree
 ```
 git subtree pull --prefix lib/knx subtree-knx master --squash
 ```
+
+change the subtree from any branch / tag / commit to another one ("V1.2.3")
+```
+git rm lib/knx
+git commit
+git remote add -f subtree-knx https://github.com/thelsing/knx.git
+git subtree add --prefix lib/knx subtree-knx V1.2.3 --squash
+git push
+```
+
 
 ## commit / push changes in the subtree to its repo
 ```
