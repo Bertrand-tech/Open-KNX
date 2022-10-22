@@ -11,14 +11,15 @@
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_schematic_V00.01.png Schematic V00.01]
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.02.sch.pdf Schematic V00.02]
 * [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.03.sch.pdf Schematic V00.03]
+* [https://github.com/OpenKNX/OpenKNX/blob/main/accessories/PiPico_BCU_Connector/doc/PiPico_BCU_Connector_V00.03.sch.pdf Schematic V00.04]
 
 
 
 == Version history ==
 
 * V00.02: added missing 3v3 to reset circuit, added mounting holes, added OpenKNX logo
-* V00.03: added additional footprints for Prog-LED, Prog-Switch and Reset Switch on BOT
-* V00.04: no changes (will likely never be produced)
+* V00.03: added additional footprints for Prog-LED, Prog-Switch and Reset Switch on BOT (Reset and Prog Button not working due to BUG in PCB
+* V00.04: fixed bug with GND connection of Reset and Prog Button
 
 == Usage ==
 
