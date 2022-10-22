@@ -18,7 +18,7 @@
 == Version history ==
 
 * V00.02: added missing 3v3 to reset circuit, added mounting holes, added OpenKNX logo
-* V00.03: added additional footprints for Prog-LED, Prog-Switch and Reset Switch on BOT (Reset and Prog Button not working due to BUG in PCB
+* V00.03: added additional footprints for Prog-LED, Prog-Switch and Reset Switch on BOT ('''''Reset and Prog Button not working due to BUG in PCB''''')
 * V00.04: fixed bug with GND connection of Reset and Prog Button
 
 == Usage ==
@@ -32,6 +32,10 @@ Be carefull: never connect to USB and KNX simultaneously without using a USB iso
 There is a precompiled firmware available:
 
 * '''OpenKNX-LogicModule:''' Turns PiPico BCU Connector in a KNX native logicmodule with 99 logic channels. You can find firmware files [https://github.com/OpenKNX/OAM-LogicModule/releases/tag/0.10-Beta here], German application description [https://github.com/OpenKNX/OAM-LogicModule/blob/main/doc/Applikationsbeschreibung-Logik.md here] and the German support forum [https://knx-user-forum.de/forum/projektforen/openknx/1765082-openknx-logikmodul-release here]. 
+
+* '''OpenKNX-PresenceModule:''' Turns PiPico BCU Connector in a KNX native module with 30 logic channels and 30 virtual presence channels. You can find firmware files [https://github.com/OpenKNX/OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md here],German application description [
+https://github.com/OpenKNX/OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md here] and the German support forum [https://knx-user-forum.de/forum/projektforen/openknx/1808556-openknx-virtualpresence-release-vpm here]. 
+
 
 == Sourcing  ==
 
