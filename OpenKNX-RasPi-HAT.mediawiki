@@ -15,7 +15,7 @@ The HAT is designed for usage within a DIN RAIL case. Unfortunately the USB port
 
 == Sourcing ==
 
-You can get PCBs [http://shop.sirsydom.de here] for a donation.<br>
+You can get PCBs and partially (SMD parts) assembled kits [http://shop.sirsydom.de here] for a donation.<br>
 For the parts I made a [https://www.reichelt.de/my/1814014 BOM at Reichelt] for your convenience.<br>
 Parts not availibe at reichelt: 47uH power inductor, min. 3A (e.g. FXL1360-470-M) - I recommend choosing the assembled kit if the DC-DC converter will be used.<br>
 Reichelt BOM without parts for the DC-DC converter: [https://www.reichelt.de/my/1828602]<br>
