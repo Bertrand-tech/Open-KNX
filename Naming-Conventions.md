@@ -16,6 +16,7 @@ all devices should be named reagrding this rules
 * SEN - Sensor-Modul
 * BM - Bewegungsmelder
 * PM - Präsenzmelder
+* VPM - Virtueller Präsenzmelder
 * LM - Logik-Modul
 * BEM - Bewässerungsmodul
 
