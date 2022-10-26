@@ -70,12 +70,12 @@ Application:
 
 
 Touch6_LED_55 - XW08B:
-* Button 1 (top left): T5/PAD1 (Bit #? in data byte)
-* Button 2 (top right): T6/PAD5 (Bit #? in data byte)
-* Button 3 (middle left): T3/PAD0 (Bit #? in data byte)
-* Button 4 (middle right): T4/PAD4 (Bit #? in data byte)
-* Button 5 (bottom left): T1/PAD2 (Bit #? in data byte)
-* Button 6 (bottom right): T2/PAD3 (Bit #? in data byte)
+* Button 1 (top left): T5/PAD1 (Bit #6 0x40 in data byte)
+* Button 2 (top right): T6/PAD5 (Bit #2 0x04 in data byte)
+* Button 3 (middle left): T3/PAD0 (Bit #7 0x80 in data byte)
+* Button 4 (middle right): T4/PAD4 (Bit #3 0x08 in data byte)
+* Button 5 (bottom left): T1/PAD2 (Bit #5 0x20 in data byte)
+* Button 6 (bottom right): T2/PAD3 (Bit #4 0x10 in data byte)
 
 * LED 1 (top left): D2 (Pixel #1)
 * LED 2 (top right): D3 (Pixel #2)
