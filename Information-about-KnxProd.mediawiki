@@ -23,6 +23,7 @@ we agreed to use 0xA000 to 0xAFFF:
 Following ApplicationNumbers are already in use:
 
 * 0xA000 (40960) - PresenceModule (mumpf)
+* 0xA002 (40962) - PresenceModuleBig (mumpf)
 * 0xA010 (40976) - SensorModule (mumpf)
 * 0xA020 (40992) - OneWireGateway (mumpf)
 * 0xA030 (41008) - LogicModule (mumpf)
