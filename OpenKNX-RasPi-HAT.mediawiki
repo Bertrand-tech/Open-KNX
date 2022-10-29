@@ -48,6 +48,7 @@ The 35mm DIN rail case on the photos is availible at [https://www.rasppishop.de/
 === Ressources ===
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/DualKNX_MicroBCU_RaspiHat_Schematic_V00.03.pdf Schematic V00.03]
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/DualKNX_MicroBCU_RaspiHat_Schematic_V00.04.pdf Schematic V00.04]
+* [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/RasPi-HAT_Schematic_V00.10.pdf Schematic V00.10]
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT Repository with all documentation]
 
 
@@ -56,6 +57,7 @@ The 35mm DIN rail case on the photos is availible at [https://www.rasppishop.de/
 === Version history ===
 * V00.03 - first prototype series
 * V00.04 - fixed wrong LED polarity
+* V00.10 - OpenKNX version
 
 
 == Links ==
