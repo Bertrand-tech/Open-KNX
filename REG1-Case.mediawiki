@@ -1,0 +1,27 @@
+== Description ==
+
+{|
+|-
+| 
+The REG1-Case is part of the [[OpenKNX-REG1]] system and is the standard case for the the [[REG1-Controller2040]] to build a 1 TE REG device.<br><br>
+| [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Base_Teaser_CATIA.png|width=150px]]
+|}
+
+
+== Ressources ==
+
+
+== Sourcing  ==
+
+You will get complete kits including this case [http://spenden.openknx.de here] for a donation.
+
+
+== Developer documentation ==
+
+=== Version history ===
+
+* 001 - first prototype
+
+
+== Pictures ==
+
