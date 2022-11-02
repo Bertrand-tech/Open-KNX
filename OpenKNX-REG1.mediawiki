@@ -26,7 +26,8 @@ Things that help you develop an own REG1 device
 
 * [https://github.com/OpenKNX/OpenKNX-REG1/tree/main/hardware/EDA-Files/REG1-App-Universal REG1-App-Universal]: can be used as a copy&paste KiCAD template project to develop an own application PCB
 * [[OpenKNX-KiCad-Lib]]: a KiCAD symbol and footprint library with 3D-modells
-* [[ REG1-Case]]: a 3D model of a 3D-printable case. Available as STL or CATIA
+* [[REG1-Case]]: a 3D model of a 3D-printable case.
+* [[REG1-Module-Case]]: a 3D model of a 3D-printable case.
 * example sketch
 
 == Repository ==
