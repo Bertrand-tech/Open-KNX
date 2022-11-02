@@ -1,0 +1,34 @@
+== Description ==
+
+{|
+|-
+| The system REG1 is a framework and a class of devices sharing common components.<br><br>
+It is designed for usage on 35mm DIN Rails in switch cabinets and has a width of 1 TE (17.5mm).<br><br>
+The modular approach speeds up developement and gives the possibity to use assembled components.<br><br>
+A REG1 device consists of a controller PCB with MCU, Flash, KNX-Connector, USB-Connector, Debug-interface, BCU and 2 IOs. It can be expanded by an application PCB which holds additional functions and connectors (FETs, sensor ICs, terminals, relay). The PCBs are mounted in a custom 3D-printed case.
+| [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Base_Teaser_CATIA.png|width=150px]] [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Base_and_App_Teaser_CATIA_open.png|width=150px]]
+|}
+
+== Components ==
+
+* [[REG1-Controller2040]]
+* [[REG1-Front-Universal]]
+* [[REG1-App-Universal]]
+
+== Devices ==
+
+* [[LM-REG1]] - a 99 channel LogicModule
+
+
+== Framework ==
+
+Things that help you develop an own REG1 device
+
+* [https://github.com/OpenKNX/OpenKNX-REG1/tree/main/hardware/EDA-Files/REG1-App-Universal REG1-App-Universal]: can be used as a copy&paste KiCAD template project to develop an own application PCB
+* [[OpenKNX-KiCad-Lib]]: a KiCAD symbol and footprint library with 3D-modells
+* [[ REG1-Case]]: a 3D model of a 3D-printable case. Available as STL or CATIA
+* example sketch
+
+== Repository ==
+
+All ressources regarding common parts for the whole REG1 system can be found in the [https://github.com/OpenKNX/OpenKNX-REG1 OpenKNX-REG1 Repo]
