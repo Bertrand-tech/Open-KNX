@@ -1,0 +1,69 @@
+== Description ==
+
+{|
+|-
+| 
+The REG1-Controller2040 is part of the [[OpenKNX-REG1]] system and holds KNX-Connector, a [[NanoBCU]], a RP2040 DualCore Cortex M0 MCU, 16MB QSPI Flash, USB-connector, a debug interface and lots of GPIO to connect to the application.<br><br>
+On the bottom there are optional footprints for mounting Prog, Reset und Bootloader Switches and a Prog-LED<br><br>
+Especially for, but not limited to, using the two GPIO as I2C, there are some footprints for optional pull up resistors.
+| [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/REG1-Controller2040_V00.02_3D_Front_wo_THT.png|width=150px]] [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/REG1-Controller2040_V00.02_3D_TOP.png|width=150px]]
+|}
+
+
+== Ressources ==
+
+* [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.01.sch.pdf Schematic V00.01]
+* [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.02]
+
+== USB/SWD interface ==
+
+To connect the REG1-Controller2040 to your computer for debugging or loading firmware, there is a 8pin interface with the USB lines, power and SWD. Be carefull, the 5V from USB have to be lowered to 3.3V externally.
+
+For your convinience, there is the [[UP1-Progger]] with a USB connector and JTAG interface.
+
+Be carefull: never connect to USB and KNX simultaneously without using a USB isolator.
+
+== Sourcing  ==
+
+You will get complete kits with almost all parts already be soldered [http://spenden.openknx.de here] for a donation. Some soldering skills are still  neccessary.
+
+== Final assembly ==
+
+There are some parts that must be soldered by the user:
+
+* J100 - soldering pins for the KNX connector 
+* GN100 - 01x07 2.54mm pin header for connecting the [[NanoBCU]]
+* J105 - 02x04 2.00mm THT pin header for connecting the front panel
+
+
+Optional parts
+* J101 - 01x08 1.27mm THT angled female pin header for connecting the [[UP1-Progger]] - only needed for developers that need SWD debugging
+* J200 - 01x04 3.5mm THT screw terminal for I/O
+* R109/R110 - 0805 SMD resistor for I/O
+
+when used in the [[REG1-Module-Case]]:
+* SW100 - Prog Switch
+* SW101 - Bootloader Switch
+* SW102 - Reset Switch
+* LED100 - 0805 SMD LED
+* R100 - 0805 1k SMD resistor
+
+
+optional part placement is defined by the application.
+
+== Developer documentation ==
+
+=== Version history ===
+
+* V00.01 - first prototype, 5 produced
+* V00.02 - added switches and Prog-LED on the bottom side
+
+
+== Pictures ==
+
+=== V00.02 ===
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/REG1-Controller2040_V00.02_3D_Front_wo_THT.png]]
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/REG1-Controller2040_V00.02_3D_BOT_wo_THT.png]]
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/REG1-Controller2040_V00.02_3D_TOP.png]]
