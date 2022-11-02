@@ -1,0 +1,38 @@
+== Description ==
+
+{|
+|-
+| The REG1-Base is the basic device in the [[OpenKNX-REG1]] system<br><br>
+It is a 1 TE (17.5mm) device for 35mm DIN Rail.<br><br>
+It is meant for applications using no or very little I/O.
+| [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Base_Teaser_CATIA.png|width=150px]] [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Base_Teaser_CATIA_open.png|width=150px]]
+|}
+
+== Components ==
+
+* [[REG1-Case]]
+* [[REG1-Controller2040]]
+* [[REG1-Front-Universal]]
+
+== Firmware-Applications ==
+
+* [[LM-REG1]] - 99 channel logic module (under construction)
+* [[VPM-REG1]] - 20 channel virtual presence, 30 channel logic module (under construction)
+
+== Sourcing ==
+
+You will get complete kits with almost all parts already be soldered [http://spenden.openknx.de here] for a donation. Some soldering skills are still  neccessary.
+
+== Assembly ==
+
+* solder J100 - soldering pins for the KNX connector
+* solder J105 - 02x04 2.00mm THT pin header for connecting the front panel
+* solder 01x07 2.54mm angled pin header to the [[NanoBCU]]
+* solder J200 - 01x04 3.5mm THT screw terminal for I/O
+* solder the NanoBCU to the Controller2040
+* configure the ribbon cable by pressing the connectors
+* solder J1 - 02x04 2.00mm SMD pin header to the REG1-Front-Universal
+* connect Controller and Front with the ribbon cable
+* mount it into the REG1-Case
+* put the cover on the case and tighten the 6 screws gently
+* connect with a Micro-USB cable to your computer and load a firmware of your choice
