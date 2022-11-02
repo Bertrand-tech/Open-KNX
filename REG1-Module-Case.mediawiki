@@ -1,0 +1,51 @@
+== Description ==
+
+{|
+|-
+| 
+The REG1-Module-Case is part of the [[OpenKNX-REG1]] system and allows to use the [[REG1-Controller2040]] not only as controller on DIN-Rail but also in a smaller module case.<br><br>
+On the bottom there are optional holes for accessing Prog, Reset und Bootloader Switches and the Prog-LED.<br>
+Micro-USB is accessible from the side.<br>
+| [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Module_Teaser_CATIA.png|width=150px]] [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Module_Teaser_CATIA_open.png|width=150px]]
+|}
+
+
+== Ressources ==
+
+
+== Sourcing  ==
+
+You will get complete kits with almost all parts already be soldered [http://spenden.openknx.de here] for a donation. Some soldering skills are still  neccessary.
+
+== Final assembly ==
+
+When used in this case, on the REG1-Controller2040 that parts must be soldered by the user:
+
+* J100 - soldering pins for the KNX connector 
+* GN100 - 01x07 2.54mm pin header for connecting the [[NanoBCU]]
+* J200 - 01x04 3.5mm THT screw terminal for I/O
+* SW100 - Prog Switch
+* SW101 - Bootloader Switch
+* SW102 - Reset Switch
+* LED100 - 0805 SMD LED
+* R100 - 0805 1k SMD resistor
+
+optional:
+* R109/R110 - 0805 SMD resistor for I/O
+
+optional part placement is defined by the application.
+
+== Developer documentation ==
+
+=== Version history ===
+
+* 001 - first prototype
+
+
+== Pictures ==
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Module_Teaser_CATIA.png]]
+
+[[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Module_Teaser_CATIA_open.png]]
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Renderings/OpenKNX_REG1_Module_Teaser_CATIA_bottom.png]]
