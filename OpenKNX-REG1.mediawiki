@@ -17,7 +17,7 @@ A REG1 device consists of a controller PCB with MCU, Flash, KNX-Connector, USB-C
 
 == Devices ==
 
-* [[LM-REG1]] - a 99 channel LogicModule
+* [[REG1-Base]] - a basic REG1 device for different Applications
 
 
 == Framework ==
