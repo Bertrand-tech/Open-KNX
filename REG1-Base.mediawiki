@@ -12,6 +12,7 @@ It is meant for applications using no or very little I/O.
 
 * [[REG1-Case]]
 * [[REG1-Controller2040]]
+* [[NanoBCU]]
 * [[REG1-Front-Universal]]
 
 == Firmware-Applications ==
