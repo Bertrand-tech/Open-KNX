@@ -28,6 +28,7 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
 
 ### OpenKNX Systems
  - [OpenKNX-UP1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1)
+ - [OpenKNX-REG1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-REG1)
 
  
 ### OpenKNX Devices
