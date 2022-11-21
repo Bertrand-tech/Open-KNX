@@ -26,14 +26,54 @@ You will get complete kits with almost all parts already be soldered [http://spe
 
 == Assembly ==
 
-* solder J100 - soldering pins for the KNX connector
+You should have following parts:
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_085129%20(Mittel).jpg|width=400px]]
+* solder 01x07 2.54mm angled pin header to the [[NanoBCU]] on to the NanoBCU as shown - cut the pins before soldering!
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/IMG_20221104_085111029%20(Mittel).jpg|width=400px]]
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/IMG_20221104_085452516%20(Mittel).jpg|width=400px]]
+
 * solder J105 - 02x04 2.00mm THT pin header for connecting the front panel
-* solder 01x07 2.54mm angled pin header to the [[NanoBCU]]
-* solder J200 - 01x04 3.5mm THT screw terminal for I/O
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_093125.jpg|width=400px]]
+
+* solder J100 - solder pins for the KNX connector and J200 - 01x04 3.5mm THT screw terminal for I/O
+cut the KNX pins as low as possible before soldering
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_093508%20(Mittel).jpg|width=400px]]
+
 * solder the NanoBCU to the Controller2040
-* configure the ribbon cable by pressing the connectors
-* solder J1 - 02x04 2.00mm SMD pin header to the REG1-Front-Universal
+be carefull to solder it 90°!
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113442%20(Mittel).jpg|width=400px]]
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113550%20(Mittel).jpg|width=400px]]
+
+* configure the ribbon cable - cut the wires apart in the middle and press the IDC connectors with pliers
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113142%20(Mittel).jpg|width=400px]]
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113302%20(Mittel).jpg|width=400px]]
+
+
+* solder J1 - 02x04 2.00mm SMD pin header to the REG1-Front-Universal and break away the frame
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221120_205541%20(Mittel).jpg|width=400px]]
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221120_210241%20(Mittel).jpg|width=400px]]
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221120_210323%20(Mittel).jpg|width=400px]]
+
+
 * connect Controller and Front with the ribbon cable
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_114226%20(Mittel).jpg|width=400px]]
+
+
 * mount it into the REG1-Case
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_114244%20(Mittel).jpg|width=400px]]
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_114305%20(Mittel).jpg|width=400px]]
+
+
 * put the cover on the case and tighten the 6 screws gently
+
+[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_132405%20(Mittel).jpg|width=400px]]
 * connect with a Micro-USB cable to your computer and load a firmware of your choice
