@@ -20,6 +20,18 @@ It is meant for applications using no or very little I/O.
 * [[LM-REG1]] - 99 channel logic module (under construction)
 * [[VPM-REG1]] - 20 channel virtual presence, 30 channel logic module (under construction)
 
+== GPIO Info ==
+
+* KNX-Tx: GPIO0
+* KNX-Rx: GPIO1
+* Prog-LED: GPIO2
+* Prog-Button: GPIO7
+* KNX-Save: GPIO6
+* Front-Panel (REG1-Front-Universal: LED): GPIO3
+* Front-Panel (REG1-Front-Universal: Button): GPIO24
+* I/O: GPIO8 / GPIO9
+
+
 == Sourcing ==
 
 You will get complete kits with almost all parts already be soldered [http://spenden.openknx.de here] for a donation. Some soldering skills are still  neccessary.
