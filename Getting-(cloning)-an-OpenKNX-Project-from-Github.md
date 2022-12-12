@@ -37,7 +37,7 @@ Alternatively you can execute this script from File-Explorer by right-clicking o
 
 Now the script clones all dependent objects. This may take some time. 
 
-Afterwards the project is in "branch state". See 
+Afterwards the project is in "branch state". See [Go to "branch state" or "developer state"](#go-to-branch-state-or-developer-state)
 
 ## Go to "hash state" or "detached state"
 
@@ -48,6 +48,8 @@ Run the script `Restore-Checkout-Hash.ps1` from an powershell command line or fr
 Now all dependent projects are checked out to the state of last successful release build. This means, with this state the project was successfully build last time. This does not guarantee a successfull build, because the root project itself might got new commits after last successful build. 
 To ensure a successful build, you have to checkout your root project to any Release-Tag (see git history) and run `Restore-Checkout-Hash.ps1` afterwards.
 
+The intention of this script: We have a historical state of our root project (i.e. one with a release tag) and we want bring all dependent projects to exact the state in which this project was build.
+
 ## Go to "branch state" or "developer state"
 
 Run the script `Restore-Checkout-Branch.ps1` from an powershell command line or from file explorer.
@@ -56,6 +58,5 @@ Run the script `Restore-Checkout-Branch.ps1` from an powershell command line or 
 
 In this state you have the newest version of all branches of all subprojects the project was build with. This does not mean, that the project will sucessfully build now, because any of these branches might got new commits after the root project was committed.
 
-Now all dependent projects are checked out to the state of last branch which was used with the root project. This means, with this state the project was successfully build last time. This does not guarantee a successfull build, because the root project itself might got new commits after last successful build. 
-To ensure a successful build, you have to checkout your root project to any Release-Tag (see git history) and run `Restore-Checkout-Hash.ps1` afterwards.
+The intention of this script: As a developer I want to have the most current state of the root and all dependent subprojects. Because the current project might depend on differnt branches of subprojects, these branches are checked out for me.
 
