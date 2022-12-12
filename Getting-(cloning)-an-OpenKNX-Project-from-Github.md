@@ -5,7 +5,7 @@ A module is published as a github project, which means, that we have dependencie
 To allow an easy cloning of OpenKNX projects, we have a restore infrastructure, which automatically clones all dependent projects
 and configures them to the "last released" version or to developer state.
 
-In case you haven't setup your development environment, first follow the steps in 
+In case you haven't setup your development environment, first follow the steps in [Installation of OpenKNX development environment](https://github.com/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-development-environment-for-PlatformIO-(PIO))
  
 ## Cloning
 
