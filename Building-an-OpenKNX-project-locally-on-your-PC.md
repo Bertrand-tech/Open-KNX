@@ -1,6 +1,6 @@
 # Introduction
 
-To build an OpenKNX project locally on you PC you need first follow the steps in
+To build an OpenKNX project locally on you PC you need first follow the steps in [Installation of OpenKNX evelopment environment](/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-development-environment-for-PlatformIO-(PIO))
 
 Local build get usually an other Application Number and Application Version for the ETS-Application (knxprod-file). This prevents any corruption of released OpenKNX ETS-Applications in ETS. You should not import an change ETS-Application (knxprod-file) with the same version in ETS until you exactly know what you do.
 
