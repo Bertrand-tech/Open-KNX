@@ -40,22 +40,11 @@ Now you have all parts installed to checkout and build an OpenKNX PIO project.
 
 # Verify installation
 
-Open your favorite shell
+You can do this with any OpenKNX module followint the instructions in [Getting-(cloning)-an-OpenKNX-Project-from-Github](/OpenKNX/OpenKNX/wiki/Getting-(cloning)-an-OpenKNX-Project-from-Github). We suggest to take [OAM-LogicModule](/OpenKNX/OAM-LogicModule).
 
-> **IMPORTANT:** If you are not using developer mode, it has to be Windows Command Prompt (cmd) with administrator privileges.
+If you executed all cloning instructions and the build was successfull, everything is fine and you are done.
 
-Go to your favorite development directory. For PIO the default is ~/Documents/PlatformIO/Projects
-
-Create a directory OpenKNX and go to this directory
-
-    mkdir OpenKNX
-    cd OpenKNX
-
-Clone the following OpenKNX PIO projects:
-
-    git clone https://github.com/thelsing/knx.git
-    git clone https://github.com/OpenKNX/OGM-Common.git
-    git clone https://github.com/OpenKNX/OAM-LogicModule.git
+If not, you can do the following checks:
 
 Go to the lib directory of cloned LogicModule-project and look at its content
 
@@ -67,7 +56,8 @@ You should see some files indicating, that they are links to other directories. 
     22.09.2022  15:18    <SYMLINKD>     knx [..\..\knx]
     22.09.2022  15:18    <SYMLINKD>     OGM-Common [..\..\OGM-Common]
 
-If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong and you should start over by deleting the whole OpenKNX-Directory and redo the verification steps again - or even all installation steps. 
+If these are normal files (without the information in square brackets) or the filetype is not \<SYMLINKD\>, something went wrong.
+You shoud run again the script `Restore-Project.ps1` in `restore` directory, which should repair this situation.
 
 > **IMPORTANT** Be careful, the filetype might be \<SYMLINK\> missing the "D", this is wrong but can be easily overlooked.
 
