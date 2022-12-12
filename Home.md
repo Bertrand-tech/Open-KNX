@@ -16,6 +16,7 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
  - [Installation of OpenKNX tools](/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-tools)
  - [Installation of OpenKNX development enviroment for PlatformIO (PIO)](/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-development-environment-for-PlatformIO-(PIO))
  - [Getting (cloning) an OpenKNX Project from Github](/OpenKNX/OpenKNX/wiki/Getting-(cloning)-an-OpenKNX-Project-from-Github)
+ - [Building an OpenKNX project locally on your PC](/OpenKNX/OpenKNX/wiki/Building-an-OpenKNX-project-locally-on-your-PC)
  - [OpenKNX KiCad Lib](/OpenKNX/OpenKNX/wiki/OpenKNX-KiCad-Lib)
  - [OpenKNXproducer](https://github.com/OpenKNX/OpenKNXproducer)
  - [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator)
