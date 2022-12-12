@@ -37,7 +37,7 @@ Alternatively you can execute this script from File-Explorer by right-clicking o
 
 Now the script clones all dependent objects. This may take some time. 
 
-Afterwards the project is in "branch state". See [Go to "branch state" or "developer state"](#go-to-branch-state-or-developer-state)
+Afterwards the project is just on your PC, probably not in a state you can build it. You should go to one of the states described in the following chapters.
 
 ## Go to "hash state" or "detached state"
 
@@ -59,4 +59,5 @@ Run the script `Restore-Checkout-Branch.ps1` from an powershell command line or 
 In this state you have the newest version of all branches of all subprojects the project was build with. This does not mean, that the project will sucessfully build now, because any of these branches might got new commits after the root project was committed.
 
 The intention of this script: As a developer I want to have the most current state of the root and all dependent subprojects. Because the current project might depend on differnt branches of subprojects, these branches are checked out for me.
+
 
