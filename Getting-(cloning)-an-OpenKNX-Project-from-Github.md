@@ -13,7 +13,12 @@ Open powershell
 
 > **IMPORTANT:** If you are not using developer mode, it has to be a powershell with administrator privileges.
 
-Go to your favorite development directory. For PIO the default is ~/Documents/PlatformIO/Projects
+Go to your favorite development directory. For PIO the default is `~/Documents/PlatformIO/Projects`
+In case it is not there (because you never created a PlatformIO project before), you can create ist with
+
+    mkdir ~/Documents/PlatformIO/Projects
+
+Nevertheless, you can work in any directory you like.
 
 Create a directory OpenKNX and go to this directory
 
