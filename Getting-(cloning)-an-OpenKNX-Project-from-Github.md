@@ -9,9 +9,11 @@ In case you haven't setup your development environment, first follow the steps i
  
 ## Cloning
 
-Open powershell
+Open PowerShell
 
 > **IMPORTANT:** If you are not using developer mode, it has to be a powershell with administrator privileges.
+
+> **IMPORTANT:** You should not use PowerShell ISE (the development environment for PowerShell) except you know what you do.
 
 Go to your favorite development directory. For PIO the default is `~/Documents/PlatformIO/Projects`
 In case it is not there (because you never created a PlatformIO project before), you can create ist with
