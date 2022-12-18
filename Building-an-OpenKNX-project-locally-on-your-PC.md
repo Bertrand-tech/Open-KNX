@@ -10,15 +10,15 @@ If you just want to update/bugfix existint firmware for an existing (released) E
 
 The OpenKNX project comes with preconfigured Build and Deployment tasks. It is convenient to add these tasks to keyboard shortcuts. 
 
-* **Tasks: Run Build Task** allows the execution of a build. This is assigned to the keyboard shortcut <Ctrl>+<Shift>+B. If not, do the assignment.
-* **Tasks: Run Test Task** allows the execution of supporting tasks. We suggest to assign it to keyboard shortcut <Ctrl>+<Shift>+T.
-* **File: Reveal in File Explorer** shows the selected file or directory in Windows file explorer. We suggest to assign it to keyboard shortcut <Ctrl>+<Shift>+R
+* **Tasks: Run Build Task** allows the execution of a build. This is assigned to the keyboard shortcut `<Ctrl>+<Shift>+B`. If not, do the assignment.
+* **Tasks: Run Test Task** allows the execution of supporting tasks. We suggest to assign it to keyboard shortcut `<Ctrl>+<Shift>+T`.
+* **File: Reveal in File Explorer** shows the selected file or directory in Windows file explorer. We suggest to assign it to keyboard shortcut `<Ctrl>+<Shift>+R`
 
 In the rest of the document keyboard shortcuts are mentioned. If you decide not to assign them, you have always to use F1 + Task name (in bold) from the list above.
 
 ## Create knxprod-file
 
-From Visual Studio, you can create the necassary knxprod-file directly. Just press <Ctrl>+<Shift>+T and select the according OpenKNXproducer task, i.E.
+From Visual Studio, you can create the necassary knxprod-file directly. Just press `<Ctrl>+<Shift>+T` and select the according OpenKNXproducer task, i.E.
 
 **OpenKNXproducer** OAM-LogicModule
 
@@ -26,7 +26,7 @@ The knxprod file is created and available in the src directory of the project. Y
 
 ## Build
 
-From Visual Studio, you can just build or build and upload your files to the device. If you press <Ctrl>+<Shift>+B, a dropdown appears with all possible build environments. The names are project dependant and chosen by the responsible developer, but common names are
+From Visual Studio, you can just build or build and upload your files to the device. If you press `<Ctrl>+<Shift>+B`, a dropdown appears with all possible build environments. The names are project dependant and chosen by the responsible developer, but common names are
 
 * **Build RP2040** OAM-LogicModule
 * **Upload USB RP2040** OAM-LogicModule
@@ -37,7 +37,7 @@ If you choose one of them, the according project (or subproject) is build and up
 
 ## For experienced users
 
-If you want to change/fix any firmware errors in a released version of an OpenKNX module, you can do this by building the release first and **afterwards** changing the sources and building locally with the build described above. If you press <Ctrl>+<Shift>+T, a dropdown appears with all possible Release versions. In most cases it is just
+If you want to change/fix any firmware errors in a released version of an OpenKNX module, you can do this by building the release first and **afterwards** changing the sources and building locally with the build described above. If you press `<Ctrl>+<Shift>+T`, a dropdown appears with all possible Release versions. In most cases it is just
 
 **Build-Release** OAM-LogicModule
 
