@@ -39,8 +39,8 @@ A video showing the soldering process of the bottom parts is at [https://www.you
 === Superflat assembling option ===
 
 alternative parts can be assembled to get a superflat version of the NanoBCU with only 5mm total height:
-* C4 100µF / 35V tantalum cap: AVX TCN4107M035R0100E
-* L1 and L2: Bourns SRR4028-221Y
+* C4 100µF / 35V tantalum cap: AVX TCN4107M035R0100E ([https://www.digikey.de/de/products/detail/kyocera-avx/TCN4107M035R0100E/10062721 Digikey])
+* L1 and L2: Bourns SRR4028-221Y ([https://www.digikey.de/de/products/detail/bourns-inc/SRR4028-221Y/2563554 Digikey])
 
 === Change VCC2 ===
 
