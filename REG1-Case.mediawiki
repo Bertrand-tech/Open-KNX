@@ -32,7 +32,7 @@ You will get complete kits including this case [http://spenden.openknx.de here] 
 
 === Version history ===
 
-* 001 - first prototype
+* V01.00 - first published version
 
 
 == Pictures ==
