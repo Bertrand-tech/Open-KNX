@@ -16,12 +16,12 @@ The REG1-Case is part of the [[OpenKNX-REG1]] system and is the standard case fo
 
 [https://github.com/OpenKNX/OpenKNX-REG1/blob/REG1-Case_V01.00/hardware/CAD-Files/Reg1_Case_Cover.stl Reg1_Case_Cover.stl]
 
-Alternative Cover with opening for the 8pin connector to the UP1-Progger (needed for SWD Debugging):
+Alternative Cover with opening for the 8pin connector to the [[UP1-Progger]] (needed for SWD Debugging):
 
 [https://github.com/OpenKNX/OpenKNX-REG1/blob/REG1-Case_V01.00/hardware/CAD-Files/Reg1_Case_Cover_SWD.stl Reg1_Case_Cover_SWD.stl]
 
 
-
+Six screws are needed: Use DIN 7982 2,2x6,5
 
 == Sourcing  ==
 
