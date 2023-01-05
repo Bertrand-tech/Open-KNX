@@ -14,6 +14,8 @@ Especially for, but not limited to, using the two GPIO as I2C, there are some fo
 
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.01.sch.pdf Schematic V00.01]
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.02]
+* [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.03]
+* [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.10]
 
 == USB/SWD interface ==
 
@@ -55,8 +57,10 @@ optional part placement is defined by the application.
 
 === Version history ===
 
-* V00.01 - first prototype, 5 produced
-* V00.02 - added switches and Prog-LED on the bottom side
+* V00.01 - first prototype (5 produced)
+* V00.02 - added switches and Prog-LED on the bottom side (not produced)
+* V00.03 - rotated Front connector (10 produced)
+* V00.10 - added D150 to decouple USB from KNX, added some silkscreen
 
 
 == Pictures ==
