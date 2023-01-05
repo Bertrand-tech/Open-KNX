@@ -17,6 +17,8 @@ Especially for, but not limited to, using the two GPIO as I2C, there are some fo
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.03]
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.10]
 
+* [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/hardware/CAD-Files/REG1-Controller2040_V00.03.step 3D-Model (STEP) V00.03 (V00.10 identical)]
+
 == USB/SWD interface ==
 
 To connect the REG1-Controller2040 to your computer for debugging or loading firmware, there is a 8pin interface with the USB lines, power and SWD. Be carefull, the 5V from USB have to be lowered to 3.3V externally.
