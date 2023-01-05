@@ -7,8 +7,8 @@ When used with a RaspPi 4, it is possible to use a second [[NanoBCU]] to connect
 The RaspPi is isolated with magnetic couplers (2kV) from KNX TP, the two KNX TP lines are also isolated from each other.<br><br>
 The HAT is designed for usage within a DIN RAIL case. Unfortunately the USB port to power the RaspPi is located on the side. On this HAT, there is also a DC/DC converter which powers the RaspPi over the GPIO Pins. You can input 12V up to 30V DC.
 | 
-[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Renderings/DualKNX_MicroBCU_RaspiHat_V00.03_3D_Render%20(Klein).png]]
-[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/IMG_20210311_140428649%20-%20Kopie.jpg]]
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Renderings/DualKNX_MicroBCU_RaspiHat_V00.03_3D_Render%20(Klein).png|width=200px]]
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/RasPi-Case_Prototype01%20(Mittel).jpg|width=200px]]
 |}
 
 
@@ -49,6 +49,7 @@ The 35mm DIN rail case on the photos is availible at [https://www.rasppishop.de/
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/DualKNX_MicroBCU_RaspiHat_Schematic_V00.03.pdf Schematic V00.03]
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/DualKNX_MicroBCU_RaspiHat_Schematic_V00.04.pdf Schematic V00.04]
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/RasPi-HAT_Schematic_V00.10.pdf Schematic V00.10]
+* [https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/RasPi-HAT_Schematic_V00.20.pdf Schematic V00.20]
 * [https://github.com/OpenKNX/OpenKNX-RasPi-HAT Repository with all documentation]
 
 
@@ -58,13 +59,43 @@ The 35mm DIN rail case on the photos is availible at [https://www.rasppishop.de/
 * V00.03 - first prototype series
 * V00.04 - fixed wrong LED polarity
 * V00.10 - OpenKNX version
+* V00.20 - changed Phoenix MSTB connectors to solder pins for Wago243 KNX-Connectors.
+
+== RasPi-Case ==
+
+The RasPi-Case is a custom design enclosure for a Raspberry Pi with mounted RasPi-HAT fitting on standard 35mm DIN-Rail.
+
+It can be used with V00.03, V00.10 and V00.20 version of the HAT. For the different KNX and DC supply connectors different adapters exist.
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/RasPi-Case_Prototype02.jpg|width=300px]]
+
+=== BOM ===
+
+* 1x RasPi-Main-Case
+* 1x RasPi-Main-CaseCover
+* 1x RasPi-Case_KNX-Adapter (HAT >= V00.20) or RasPi-Case_Wago-Adapter (HAT < V00.20)
+* 4x RasPi-Case_Spacer11mm
+* 8x screws DIN 7982 2,2x6,5 
+* 4x screws DIN 7981 2,2x19
 
 
 == Links ==
 
 [https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1597469-dualknx-microbcu-hat-f%C3%BCr-raspberrypi-mit-dc-dc-netzteil Vorstellungs- / Entwicklungsthread im KNX User Forum]
 
+[https://knx-user-forum.de/forum/projektforen/openknx/1809361-openknx-raspi-hat-und-passendes-hutschienengeh%C3%A4use Hutschiengehäuse-Thread im KNX User Forum]
+
 == Pictures ==
+
+=== RasPi-Case mit V00.20 ===
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/RasPi-Case_Prototype01.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/RasPi-Case_Prototype02.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/RasPi-Case_Prototype03.jpg]]
+
+[[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/blob/master/doc/Pictures/RasPi-Case_Prototype04.jpg]]
 
 === V00.03 ===
 
