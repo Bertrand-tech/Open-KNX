@@ -38,19 +38,20 @@ You will get complete kits with almost all parts already be soldered [http://spe
 There are some parts that must be soldered by the user:
 
 * J100 - soldering pins for the KNX connector 
-* GN100 - 01x07 2.54mm pin header for connecting the [[NanoBCU]]
-* J105 - 02x04 2.00mm THT pin header for connecting the front panel
+* GN100 - 1x07 2.54mm pin header for connecting the [[NanoBCU]]
+* J105 - 2x04 2.00mm THT pin header for connecting the front panel
 
 
 Optional parts
-* J101 - 01x08 1.27mm THT angled female pin header for connecting the [[UP1-Progger]] - only needed for developers that need SWD debugging
-* J200 - 01x04 3.5mm THT screw terminal for I/O
-* R109/R110 - 0805 SMD resistor for I/O
+* J101 - 1x08 1.27mm THT angled female pin header - for connecting the [[UP1-Progger]] - only needed for developers that need SWD debugging
+* J102 - 1x05 2.54mm THT female header - alternative USB connection reachable when the device is mounted on the rail
+* J200 - 1x04 3.5mm THT screw terminal - for I/O
+* R109/R110 - 0805 SMD resistor - for I/O
 
 when used in the [[REG1-Module-Case]]:
-* SW100 - Prog Switch
-* SW101 - Bootloader Switch
-* SW102 - Reset Switch
+* SW100 - XUNPU TS-1089S-02526 - Prog Switch
+* SW101 - XUNPU TS-1089S-02526 - Bootloader Switch
+* SW102 - XUNPU TS-1089S-02526 - Reset Switch
 * LED100 - 0805 SMD LED
 * R100 - 0805 1k SMD resistor
 
