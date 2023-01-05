@@ -17,6 +17,14 @@ Micro-USB is accessible from the side.<br>
 
 You will get complete kits with almost all parts already be soldered [http://spenden.openknx.de here] for a donation. Some soldering skills are still  neccessary.
 
+== Ressources ==
+
+=== REG1-Controller-Module-Case V01.00 ===
+
+[https://github.com/OpenKNX/OpenKNX-REG1/blob/REG1-Case_V01.00/hardware/CAD-Files/Reg1_Main_Case.stl Reg1_Main_Case.stl]
+
+[https://github.com/OpenKNX/OpenKNX-REG1/blob/REG1-Case_V01.00/hardware/CAD-Files/Reg1_Case_Cover.stl Reg1_Case_Cover.stl]
+
 == Final assembly ==
 
 When used in this case, on the REG1-Controller2040 that parts must be soldered by the user:
@@ -39,7 +47,7 @@ optional part placement is defined by the application.
 
 === Version history ===
 
-* 001 - first prototype
+* V01.00 - first prototype
 
 
 == Pictures ==
