@@ -12,6 +12,8 @@ Especially for, but not limited to, using the two GPIO as I2C, there are some fo
 
 == Ressources ==
 
+* all ressources can be found in the [https://github.com/OpenKNX/OpenKNX-REG1/tree/main OpenKNX-REG1 repo]
+
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.01.sch.pdf Schematic V00.01]
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.02]
 * [https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/REG1-Controller2040_V00.02.sch.pdf Schematic V00.03]
