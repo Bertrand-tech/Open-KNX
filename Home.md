@@ -22,7 +22,7 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
  - [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator)
 
 #### KnxProd
- - [Naming Conventions](/OpenKNX/OpenKNX/wiki/Naming-Conventions)
+ - [Naming Conventions](Naming-Conventions)
  - [Information about KnxProd](/OpenKNX/OpenKNX/wiki/Information-about-KnxProd)
  - [How to prevent ETS from loading wrong application to device](/OpenKNX/OpenKNX/wiki/How-to-prevent-ETS-from-loading-wrong-application-to-device)
  - [Wie aktualisiert man eine ETS Applikation auf eine aktuelle Version](/OpenKNX/OpenKNX/wiki/Wie-aktualisiert-man-eine-ETS-Applikation-auf-eine-aktuelle-Version)
@@ -31,7 +31,6 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
 ### OpenKNX Systems
  - [OpenKNX-UP1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1)
  - [OpenKNX-REG1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-REG1)
-
  
 ### OpenKNX Devices
  - [LED-UP1-6x24V](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Progger)
