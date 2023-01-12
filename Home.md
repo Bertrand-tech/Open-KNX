@@ -32,7 +32,7 @@ Infos about our Repository Structure can be found [here](/OpenKNX/OpenKNX/wiki/R
  - [OpenKNX-UP1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1)
  - [OpenKNX-REG1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-REG1)
  
-### OpenKNX Devices
+### OpenKNX Device
  - [LED-UP1-6x24V](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Progger)
  - [SEN-UP1-8xTH](https://github.com/OpenKNX/OpenKNX/wiki/SEN-UP1-8xTH)
  - [TAS-UP1-Touch_BE](https://github.com/OpenKNX/OpenKNX/wiki/TAS-UP1-Touch_BE)
