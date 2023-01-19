@@ -35,7 +35,7 @@ When used in this case, on the REG1-Controller2040 that parts must be soldered b
 * SW100 - Prog Switch
 * SW101 - Bootloader Switch
 * SW102 - Reset Switch
-* LED100 - 0805 SMD LED
+* LED100 - 0805 SMD LED (on the top side of the LED, cathode (-) is marked green. This side must be oriented to the closed side of the printed U around the footprint)
 * R100 - 0805 1k SMD resistor
 
 optional:
