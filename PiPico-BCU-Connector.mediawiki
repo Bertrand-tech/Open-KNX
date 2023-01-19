@@ -52,7 +52,7 @@ You can get PCBs [http://shop.sirsydom.de here] for a donation.
 * R1(*1)/R4(*2): 0805 SMD resistor 2k2
 * R2(*1)/R5(*2): 0805 SMD resistor 220
 * R3(*1)/R6(*2): 0805 SMD resistor 1k
-* D1(*1)/D3(*2): 0805 LED (e.g Reichelt SMD-LED 0805 RT)
+* D1(*1)/D3(*2): 0805 LED e.g Reichelt SMD-LED 0805 RT (mostly on the top side of the LED, cathode (-) is marked green. This side must be oriented to the closed side of the printed U around the footprint)
 * D2: SMAJ40CA (optional, recommend if there is no SMAJ40CA on the BCU)
 
 Buttons and program-LED can be placed on front- (*1) or back-side (*2).
