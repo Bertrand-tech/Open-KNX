@@ -4,11 +4,13 @@ To build an OpenKNX project locally on you PC you need first follow the steps in
 
 Local build get usually an other Application Number and Application Version for the ETS-Application (knxprod-file). This prevents any corruption of released OpenKNX ETS-Applications in ETS. You should not import an change ETS-Application (knxprod-file) with the same version in ETS until you exactly know what you do.
 
-If you just want to update/bugfix existint firmware for an existing (released) ETS-Application, see section [For experienced users](#for-experienced-users)
+If you just want to update/bugfix existing firmware for an existing (released) ETS-Application, see section [For experienced users](#for-experienced-users)
+
+If you just want to use existing OpenKNX firmware without any modification, you will find binaries (uf2 files) for upload for most devices.
 
 ## Preparation (just once)
 
-The OpenKNX project comes with preconfigured Build and Deployment tasks. It is convenient to add these tasks to keyboard shortcuts. 
+The OpenKNX project comes with preconfigured Build and Deployment tasks. It is convenient to add these tasks to keyboard shortcuts in Visual Studio Code (VSC).
 
 * **Tasks: Run Build Task** allows the execution of a build. This is assigned to the keyboard shortcut `<Ctrl>+<Shift>+B`. If not, do the assignment.
 * **Tasks: Run Test Task** allows the execution of supporting tasks. We suggest to assign it to keyboard shortcut `<Ctrl>+<Shift>+T`.
@@ -18,7 +20,7 @@ In the rest of the document keyboard shortcuts are mentioned. If you decide not 
 
 ## Create knxprod-file
 
-From Visual Studio, you can create the necassary knxprod-file directly. Just press `<Ctrl>+<Shift>+T` and select the according OpenKNXproducer task, i.E.
+From VSC, you can create the necassary knxprod-file directly. Just press `<Ctrl>+<Shift>+T` and select the according OpenKNXproducer task, i.E.
 
 **OpenKNXproducer** OAM-LogicModule
 
@@ -26,7 +28,7 @@ The knxprod file is created and available in the src directory of the project. Y
 
 ## Build
 
-From Visual Studio, you can just build or build and upload your files to the device. If you press `<Ctrl>+<Shift>+B`, a dropdown appears with all possible build environments. The names are project dependant and chosen by the responsible developer, but common names are
+From VSC, you can just build or build and upload your files to the device. If you press `<Ctrl>+<Shift>+B`, a dropdown appears with all possible build environments. The names are project dependant and chosen by the responsible developer, but common names are
 
 * **Build RP2040** OAM-LogicModule
 * **Upload USB RP2040** OAM-LogicModule
