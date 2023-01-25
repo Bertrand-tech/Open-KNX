@@ -78,6 +78,10 @@ It can be used with V00.03, V00.10 and V00.20 version of the HAT. For the differ
 * 8x screws DIN 7982 2,2x6,5 
 * 4x screws DIN 7981 2,2x19
 
+=== STL ===
+[https://github.com/OpenKNX/OpenKNX-RasPi-HAT/tree/RasPi-Case_V00.90/doc/RasPi-Case]
+
+[https://www.thingiverse.com/thing:5812213]
 
 == Links ==
 
