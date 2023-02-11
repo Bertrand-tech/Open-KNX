@@ -9,6 +9,8 @@ The following prefixes will classify the repositories:
 
 == List of OpenKNX Modules ==
 
+This list is not yet complete! Please contribute, at least with your own modules ;)
+
 {| class="wikitable" style="margin:auto"
 |+ OpenKNX Modules Overview
 |-
@@ -25,5 +27,3 @@ The following prefixes will classify the repositories:
 | OFM || VirtualButton || (virtual) button functionality || [https://github.com/OpenKNX/OFM-VirtualButton Repo] || X || ? || ? || Prod.
 |-
 |}
-
-OGM-Common
