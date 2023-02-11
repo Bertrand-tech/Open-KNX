@@ -12,11 +12,11 @@ The following prefixes will classify the repositories:
 {| class="wikitable" style="margin:auto"
 |+ OpenKNX Modules Overview
 |-
-! Type !! Name !! Description !! Repository !! RP2040 !! SAMD21 !! HAL
+! Type !! Name !! Description !! Repository !! RP2040 !! SAMD21 !! HAL !! State
 |-
-| OGM || Common || Common OpenKNX functionality used by every OpenKNX firmware || [https://github.com/OpenKNX/OGM-Common Repo] || X || X || N/A
+| OGM || Common || Common OpenKNX functionality used by every OpenKNX firmware || [https://github.com/OpenKNX/OGM-Common Repo] || X || X || N/A || Prod.
 |-
-| OFM || THPSensorModule || Temperature, Humidty and Air pressure sensors || [https://github.com/OpenKNX/OFM-THPSensorModule Repo] || X || - || N/A
+| OFM || THPSensorModule || Temperature, Humidty and Air pressure sensors || [https://github.com/OpenKNX/OFM-THPSensorModule Repo] || X || - || N/A || Alpha
 |-
 |}
 
