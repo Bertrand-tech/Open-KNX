@@ -1,0 +1,23 @@
+== OpenKNX Modules ==
+
+OpenKNX provides reusable software modules, which can be adopted to community hardware.
+The following prefixes will classify the repositories:
+
+* OAM - OpenKNX Application Module - Contains usually a complete application (software and ETS-Application), which can be combined with other OAM, but can also be used standalone
+* OFM - OpenKNX Function Module - Contains usually a reusable part for an application (software and ETS-parts) like an IO-channel or a humidity sensor. Can be used in an own application or as an implementation idea.
+* OGM - OpenKNX Generic Module - any generic or common implementations used in OpenKNX
+
+== List of OpenKNX Modules ==
+
+{| class="wikitable" style="margin:auto"
+|+ OpenKNX Modules Overview
+|-
+! Type !! Name !! Description !! Repository !! RP2040 !! SAMD21 !! HAL
+|-
+| OGM || Common || Common OpenKNX functionality used by every OpenKNX firmware || [https://github.com/OpenKNX/OGM-Common Repo] || X || X || N/A
+|-
+| OFM || THPSensorModule || Temperature, Humidty and Air pressure sensors || [https://github.com/OpenKNX/OFM-THPSensorModule Repo] || X || - || N/A
+|-
+|}
+
+OGM-Common
