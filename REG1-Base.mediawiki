@@ -17,8 +17,8 @@ It is meant for applications using no or very little I/O.
 
 == Firmware-Applications ==
 
-* [[LM-REG1]] - 99 channel logic module (under construction)
-* [[VPM-REG1]] - 20 channel virtual presence, 30 channel logic module (under construction)
+* [https://github.com/OpenKNX/OAM-LogicModule/releases LogicModule] - 99 channel logic module
+* [https://github.com/OpenKNX/OAM-PresenceModule/releases VirtualPresenceModule] - 20 channel virtual presence, 30 channel logic module
 
 == GPIO Info ==
 
@@ -61,9 +61,8 @@ be carefull to solder it 90°!
 [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113442%20(Mittel).jpg|width=400px]]
 [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113550%20(Mittel).jpg|width=400px]]
 
-* configure the ribbon cable - cut the wires apart in the middle and press the IDC connectors with pliers
+* configure the ribbon cable - press the IDC connectors with pliers or in a vice.
 
-[[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113142%20(Mittel).jpg|width=400px]]
 [[https://github.com/OpenKNX/OpenKNX-REG1/blob/main/doc/Pictures/Assembly-REG1-Base/20221121_113302%20(Mittel).jpg|width=400px]]
 
 
