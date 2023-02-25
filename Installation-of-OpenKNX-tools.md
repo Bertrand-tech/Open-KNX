@@ -1,4 +1,4 @@
-## Beckground
+## Background
 
 OpenKNX will deliver firmware packages, which can be build and uploaded via simple scripts. These scripts will be supported by OpenKNX tools, which have to be installed once. Sometime an Update might be necessary. This Page describes the installation and update procedure.
 
