@@ -18,18 +18,21 @@ You can get kits [http://shop.sirsydom.de here] for a donation.<br>
 
 == Case ==
 
-* [https://github.com/OpenKNX/SEN-UP1-8xTH/blob/main/hardware/CAD-Files/SEN-UP1-8xTH_Case_bot_002.stl SEN-UP1-8xTH_Case_bot_002.stl]
-* [https://github.com/OpenKNX/SEN-UP1-8xTH/blob/main/hardware/CAD-Files/SEN-UP1-8xTH_Case_top_002.stl SEN-UP1-8xTH_Case_top_002.stl]
-
 * [https://github.com/OpenKNX/SEN-UP1-8xTH/blob/main/hardware/CAD-Files/SEN-UP1-8xTH_Case_bot_003.stl SEN-UP1-8xTH_Case_bot_003.stl]
 * [https://github.com/OpenKNX/SEN-UP1-8xTH/blob/main/hardware/CAD-Files/SEN-UP1-8xTH_Case_top_003.stl SEN-UP1-8xTH_Case_top_003.stl]
 
 Screw and nut for the case M2x14 (DIN 963) and BM2 nut (DIN 439).<br>
 With FDM print they normally not needed.
 
+== Software ==
+
+there is no release yet, but a working alpha version can be build from the [https://github.com/OpenKNX/SEN-UP1-8xTH repo].
+
 == User Documentation ==
 
 === Assembly ===
+
+
 
 === Firmware ===
 
