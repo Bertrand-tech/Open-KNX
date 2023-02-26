@@ -10,6 +10,11 @@
 * **[PresenceModule](https://github.com/OpenKNX/OAM-PresenceModule)**
 * **[SOM-UP](https://github.com/OpenKNX/SOM-UP)**
 
+# [Devices](https://github.com/OpenKNX/OpenKNX/wiki/Device-Overview)
+* **[[REG1-Base]]**
+* **[[REG1-Module]]**
+* **[[SEN-UP1-8xTH]]**
+
 # PCBs
 * **[ItsyBitsy BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)**
 * **[PiPico BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector)**
