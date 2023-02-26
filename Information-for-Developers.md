@@ -13,7 +13,6 @@
 
  - [Naming Conventions](Naming-Conventions)
  - [[Repository structure]]
- - [[Usage of git subtrees in OpenKNX repos]]
 
 ### Software Deveopement
 
