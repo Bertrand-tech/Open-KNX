@@ -1,5 +1,3 @@
-# Information for Users
-
 ## Quick Start Guide
 
 1. Select and get/build some compatible OpenKNX device, see [[Device Overview]]
