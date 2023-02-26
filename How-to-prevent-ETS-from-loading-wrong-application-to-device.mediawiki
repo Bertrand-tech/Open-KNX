@@ -1,3 +1,5 @@
+<b>this information is maybe deprecated. This feature is handled in OGM-Common and the example xmls.</b>
+
 == Scope ==
 This HowTo describes how a OpenKNX device using the OpenKNX stack can be bound to a specific knxprod.<br>
 
