@@ -1,3 +1,5 @@
+**this information is maybe deprecated. Git Subtrees are not the preferd solution in the OpenKNX project at the time of writing this.**
+
 # example usage
 
 ## setup
