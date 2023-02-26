@@ -1,6 +1,6 @@
 # Basics
 
-* **[Start](https://github.com/OpenKNX/OpenKNX/wiki/New-Home)**
+* **[Start](https://github.com/OpenKNX/OpenKNX/wiki/Home)**
 * **[FAQ](https://github.com/OpenKNX/OpenKNX/wiki/FAQ)**
 * **[[Information for Users]]**
 * **[[Information for Developers]]**
