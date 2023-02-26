@@ -7,7 +7,7 @@
 
 # [Applications](https://github.com/OpenKNX/OpenKNX/wiki/Application-Overview)
 * **[LogicModule](https://github.com/OpenKNX/OAM-LogicModule)**
-* **[PresenceModule](https://github.com/OpenKNX/OAM-PresenceModule**
+* **[PresenceModule](https://github.com/OpenKNX/OAM-PresenceModule)**
 * **[[SEN-UP1-8xTH]]**
 * **[SOM-UP](https://github.com/OpenKNX/SOM-UP)**
 
