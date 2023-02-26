@@ -13,7 +13,7 @@ The information provided here is also a good starting point for everyone that wa
 
 ## Information for Developers
 
-Developers that want to create their own firmware or want to modify or enhance existing firmware or developers aiming to create their own hardware, eventually based on of of the existing [[OpenKNX Systems]] find information here.
+Developers that want to create their own firmware or want to modify or enhance existing firmware or developers aiming to create their own hardware, eventually based on one of the existing [[OpenKNX Systems]] find information here.
 
 [[Information for Developers]]
 
