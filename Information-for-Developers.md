@@ -25,7 +25,6 @@
  - [OpenKNXproducer](https://github.com/OpenKNX/OpenKNXproducer)
  - [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator)
  - [Information about KnxProd](/OpenKNX/OpenKNX/wiki/Information-about-KnxProd)
- - [How to prevent ETS from loading wrong application to device](/OpenKNX/OpenKNX/wiki/How-to-prevent-ETS-from-loading-wrong-application-to-device)
 
 
 ### Hardware Deveopement
