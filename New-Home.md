@@ -22,40 +22,22 @@ Developers that want to create their own firmware or want to modify or enhance e
 
 ## Applications
 
-(grouped) list of existing (Released / Beta / In Developement) Applications ( knxprod/firmware )
-e.g.
+An OpenKNX Application is a piece of embedded software and correspondig product database (knxprod) that is meant to be executed on an OpenKNX Device.
 
-* logicmodule
-* presenceModule
-* sen-up1-8xth
-* som-up
+See [[Application Overview]] for a list.
 
 ## Devices
 
-(grouped) list of existing (Released / Beta / In Developement) Devices( complete, unique piece of hardware )
+An OpenKNX Device is a (complete) piece of hardware that is able to execute an OpenKNX Application.
 
-* [[LED-UP1-6x24V]]
-* [[SEN-UP1-8xTH]]
-* [[TAS-UP1-Touch_BE]]
-* [[SOM-UP]]
-* [[REG1-Base]]
+See [[Device Overview]] for a list.
 
 
 ## Hardware
 
- - [OpenKNX-UP1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1)
- - [OpenKNX-REG1](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-REG1)
- - [Nano BCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU)
- - [Raspi HAT](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-RasPi-HAT)
- - [BCU Breadboard Adapter](https://github.com/OpenKNX/OpenKNX/wiki/BCU-Breadboard-Adapter)
- - [ItsyBitsy BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)
- - [PiPico BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector)
- - [UP1 Breadboard Adapter](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Breadboardadapter)
- - [UP1 Case](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Case)
- - [UP1 Progger](https://github.com/OpenKNX/OpenKNX/wiki/UP1-Progger)
+Any piece of Hardware developed in the OpenKNX scope that is not a device.
 
-
-(grouped) list of existing (Released / Beta / In Developement) hardware pieces
+See [[Hardware Overview]] for a list.
 
 ## Software
 
