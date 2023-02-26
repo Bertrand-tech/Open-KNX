@@ -1,9 +1,9 @@
 # Basics
 
-* **[Start](https://github.com/OpenKNX/OpenKNX/wiki/Home)**
+* **[Start](https://github.com/OpenKNX/OpenKNX/wiki/New Home)**
 * **[FAQ](https://github.com/OpenKNX/OpenKNX/wiki/FAQ)**
-* **[Developer Tools](https://github.com/OpenKNX/OpenKNX/wiki#developertools)**
-* **[KnxProd](https://github.com/OpenKNX/OpenKNX/wiki#knxprod)**
+* **[[Information for Users]]**
+* **[[Information for Developers]]**
 
 # PCBs
 * **[ItsyBitsy BCU Connector](https://github.com/OpenKNX/OpenKNX/wiki/ItsyBitsy-BCU-Connector)**
