@@ -1,4 +1,4 @@
-this a draft for a new entry page for the Wiki.
+this a draft for a new entry page for the Wiki. <= to be deleted.
 
 
 # OpenKNX
@@ -7,32 +7,18 @@ OpenSource KNX software and hardware for maker, hobbyist and home automation ent
 
 ## Information for Users
 
-Scope: Users that only want to solder hardware kits and use existing firmware
+Users that only want to use existing (and precompiled) firmware for their OpenKNX devices will find all neccessary information here.
 
-e.g.: download release from github, knxprod, upload firmware
- - [Installation of OpenKNX tools](/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-tools)
- - [Wie aktualisiert man eine ETS Applikation auf eine aktuelle Version](/OpenKNX/OpenKNX/wiki/Wie-aktualisiert-man-eine-ETS-Applikation-auf-eine-aktuelle-Version)
-https://github.com/OpenKNX/OpenKNX/wiki/How-to-reconnect-to-a-completely-unresponsive-board-(SAMD-and-RP2040-boards)
+The information provided here is also a good starting point for everyone that wants to beginn with OpenKNX.
+
+[[Information for Users]]
+
 
 ## Information for Developers
 
-Scope: hard and software developers howtos
+Developers that want to create their own firmware or want to modify or enhance existing firmware or developrs aiming to create their own hardware, eventually based on of of the existing [OpenKNX Systems] find information here.
 
-e.g.: setup toolchain VSC, KiCad, naming conventions
-
- - [Installation of OpenKNX development enviroment for PlatformIO (PIO)](/OpenKNX/OpenKNX/wiki/Installation-of-OpenKNX-development-environment-for-PlatformIO-(PIO))
- - [Getting (cloning) an OpenKNX Project from Github](/OpenKNX/OpenKNX/wiki/Getting-(cloning)-an-OpenKNX-Project-from-Github)
- - [Building an OpenKNX project locally on your PC](/OpenKNX/OpenKNX/wiki/Building-an-OpenKNX-project-locally-on-your-PC)
- - [OpenKNX KiCad Lib](/OpenKNX/OpenKNX/wiki/OpenKNX-KiCad-Lib)
- - [OpenKNXproducer](https://github.com/OpenKNX/OpenKNXproducer)
- - [Kaenx-Creator](https://github.com/OpenKNX/Kaenx-Creator)
- - [Naming Conventions](Naming-Conventions)
-https://github.com/OpenKNX/OpenKNX/wiki/Repository-structure
- - [Information about KnxProd](/OpenKNX/OpenKNX/wiki/Information-about-KnxProd)
- - [How to prevent ETS from loading wrong application to device](/OpenKNX/OpenKNX/wiki/How-to-prevent-ETS-from-loading-wrong-application-to-device)
-
-  - [Kaenx-Creator Wiki](https://github.com/OpenKNX/Kaenx-Creator/wiki)
-https://github.com/OpenKNX/OpenKNX/wiki/Usage-of-git-subtrees-in-OpenKNX-repos
+[[Information for Developers]]
 
 ## Applications
 
