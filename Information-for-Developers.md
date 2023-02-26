@@ -14,11 +14,12 @@
  - [Naming Conventions](Naming-Conventions)
  - [[Repository structure]]
 
-### Software Deveopement
+### Software Developement
 
  - [[Installation of OpenKNX development environment for PlatformIO (PIO)]]
  - [[Getting (cloning) an OpenKNX Project from Github]]
  - [[Building an OpenKNX project locally on your PC]]
+ - [[ICT - In Circuit Debugging]]
 
 ### KNX Product Database (knxprod)
 
