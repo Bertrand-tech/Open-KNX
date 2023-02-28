@@ -17,9 +17,10 @@ we agreed to use 0xA000 to 0xAFFF:
 
 * 0xA000 to 0xA0FF (40960 to 41215): reserved for [https://github.com/mumpf mumpf]
 * 0xA100 to 0xA1FF (41216 to 41471): reserved for [https://github.com/Ing-Dom Ing-Dom]
-* 0xA200 to 0xA2FF (41472 to 41727): reserved for Masifi
-* 0xA300 to 0xA3FF (41728 to 41983): reserved for traxanos
+* 0xA200 to 0xA2FF (41472 to 41727): reserved for [https://github.com/Smart-MF Masifi]
+* 0xA300 to 0xA3FF (41728 to 41983): reserved for [https://github.com/traxanos traxanos]
 * 0xA400 to 0xA4FF (41984 to 42239): reserved for [https://github.com/thewhobox thewhobox]
+* 0xA500 to 0xA5FF (42240 to 42495): reserved for damic
 * 0xAA00 to 0xAA0F (43520 to 43535): reserved for [https://github.com/ecarjat ecarjat]
 * 0xAC00 to 0xACFF (44032 to 44287): reserved for Cornelius 
 * 0xAF00 to 0xAFFF (44800 to 45055): reserved for Testing/Debugging etc... (no public usage)
