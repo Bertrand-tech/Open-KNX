@@ -118,3 +118,9 @@ There are some tools for creating/modifying knxprods:
 * [[https://github.com/OpenKNX/Kaenx-Creator]] Infos [https://knx-user-forum.de/forum/projektforen/openknx/1778683-kaenx-creator-erstelle-knx-produktdatenbanken-mit-gui KNX-User-Forum]
 * [[https://github.com/thelsing/CreateKnxProd]]
 * [[https://github.com/knxprodeditor/KNXprodEditor]]
+
+== Misc ==
+
+* Sometimes it can help to delete the complete ETS product store: C:\ProgramData\KNX\ETS5\ProductStore
+
+* In ETS Settings, advanced logging can be activated. The Log is under C:\Users\<username>\AppData\Local\KNX\ETS5\Log
