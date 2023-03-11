@@ -2,6 +2,12 @@
 
 OpenKNX will deliver firmware packages, which can be build and uploaded via simple scripts. These scripts will be supported by OpenKNX tools, which have to be installed once. Sometime an Update might be necessary. This Page describes the installation and update procedure.
 
+## Preconditions
+
+OpenKNX uses PowerShell-Scripts for installation of tools, creation of knxprod files and uploading firmware packages to your hardware. Therefore execution of PowerShell-Scripts should be enabled on your system. The easiest way is to do it from Start menu -> Settings -> for Developers (there its the last entry on the page):
+
+![PowerShell](https://user-images.githubusercontent.com/14316138/224476082-d14187fd-a33b-41d4-82ce-b70789facac8.png)
+
 ## Download package
 
 Download the newest OpenKNX tools package from [https://github.com/OpenKNX/OpenKNXproducer/releases](https://github.com/OpenKNX/OpenKNXproducer/releases). Because this zip package contains executable files and a PowerShell script, modern Browsers warn the user, that this download might be dangerours. See the "Explanation" section to understand what the package contains and what is installed.
