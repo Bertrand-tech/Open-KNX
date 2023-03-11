@@ -4,11 +4,18 @@ Tested on Windows 10, Windows 11 should work, too!
 
 Set your Windows to "Developer Mode" [as described here](https://consumer.huawei.com/en/support/content/en-us15594140/)
 
+<kbd>![Developer mode](https://user-images.githubusercontent.com/14316138/224475367-bf24628f-eca6-48a6-9e12-7cd1860a9ae1.png)</kbd>
+
 > **Information:** Developer Mode allows you to work with symbolic links in Windows without administrator privileges. OpenKNX PIO projects use symbolic links and developer mode makes it easy to work with. If you don't want or are not allowed to use developer mode, you can still compile OpenKNX PIO projects, but then you have to ensure, that all github clone operations are executed from a Windows Command Prompt (cmd) with administrator privileges. Other shells (like git bash) will not work with symlinks without developer mode.
+
+Enable also the execution of PowerShell-Scripts (the last entry on the same settings page as developer mode). This enables all scripts you need for a successfull setup.
+ 
+<kbd>![PowerShell](https://user-images.githubusercontent.com/14316138/224475331-ef281a62-44fe-42a3-9d44-cbce93e19d2a.png)</kbd>
+
 
 Download and install git from [https://git-scm.com/downloads](https://git-scm.com/downloads) with symbolic link support. This is one of the last advanced settings in the whole sequence of settings and the only one that has to be changed from the default:
 
-![Git-Settings](https://user-images.githubusercontent.com/14316138/192711629-a89ecbe9-4158-441d-81b8-ef08c4b24b85.png)
+<kbd>![Git-Settings](https://user-images.githubusercontent.com/14316138/192711629-a89ecbe9-4158-441d-81b8-ef08c4b24b85.png)</kbd>
  
 > **IMPORTANT:** Be sure, that you check the option "Enable symbolic links". If you already installed git without this option, reinstall it.
 
