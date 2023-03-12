@@ -4,7 +4,7 @@ OpenKNX will deliver firmware packages, which can be build and uploaded via simp
 
 ## Preconditions
 
-OpenKNX uses PowerShell-Scripts for installation of tools, creation of knxprod files and uploading firmware packages to your hardware. Therefore execution of PowerShell-Scripts should be enabled on your system. The easiest way is to do it from Start menu -> Settings -> for Developers (there its the last entry on the page):
+OpenKNX uses PowerShell-Scripts for installation of tools, creation of knxprod files and uploading firmware packages to your hardware. Therefore execution of PowerShell-Scripts should be enabled on your system. The easiest way is to do it from Start menu -> Settings -> Update & Security -> for Developers (there its the last entry on the page):
 
 ![PowerShell](https://user-images.githubusercontent.com/14316138/224476082-d14187fd-a33b-41d4-82ce-b70789facac8.png)
 
