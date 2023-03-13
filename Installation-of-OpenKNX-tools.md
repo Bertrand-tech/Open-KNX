@@ -10,6 +10,7 @@ OpenKNX uses PowerShell-Scripts for installation of tools, creation of knxprod f
 
 Another way is to open a Windows PowerShell with administrator rights. You can check the actual setting with the command 
 "Get-ExecutionPolicy"
+
 To allow the execution of the PowerShell-Scripts it should show "RemoteSigned" (set by the Update & Security Settings). 
 If the actual setting is "Restricted" you should execute the following command in the Windows PowerShell with administrator rights:
 "Set-ExecutionPolicy Unrestricted"
