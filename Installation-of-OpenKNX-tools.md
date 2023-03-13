@@ -14,6 +14,7 @@ Another way is to open a Windows PowerShell with administrator rights. You can c
 To allow the execution of the PowerShell-Scripts it should show "RemoteSigned" (set by the Update & Security Settings). 
 
 If the actual setting is "Restricted" you should execute the following command in the Windows PowerShell with administrator rights:
+
 "Set-ExecutionPolicy Unrestricted"
 and you may check the setting afterwards again with:
 "Get-ExecutionPolicy"
