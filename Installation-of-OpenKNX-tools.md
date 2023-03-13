@@ -8,6 +8,15 @@ OpenKNX uses PowerShell-Scripts for installation of tools, creation of knxprod f
 
 ![PowerShell](https://user-images.githubusercontent.com/14316138/224476082-d14187fd-a33b-41d4-82ce-b70789facac8.png)
 
+Another way is to open a Windows PowerShell with administrator rights. You can check the actual setting with the command 
+"Get-ExecutionPolicy"
+To allow the execution of the PowerShell-Scripts it should show "RemoteSigned" (set by the Update & Security Settings). 
+If the actual setting is "Restricted" you should execute the following command in the Windows PowerShell with administrator rights:
+"Set-ExecutionPolicy Unrestricted"
+and you may check the setting afterwards again with:
+"Get-ExecutionPolicy"
+The settings "RemoteSigned", "Unrestricted" or "Bypass" will allow to run the needed PowerShell-Scripts.
+
 ## Download package
 
 Download the newest OpenKNX tools package from [https://github.com/OpenKNX/OpenKNXproducer/releases](https://github.com/OpenKNX/OpenKNXproducer/releases). Because this zip package contains executable files and a PowerShell script, modern Browsers warn the user, that this download might be dangerours. See the "Explanation" section to understand what the package contains and what is installed.
