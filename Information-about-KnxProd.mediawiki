@@ -1,6 +1,22 @@
 == Scope ==
 Find here information about KnxProd and how to create your own
 
+== OpenKNX conventions ==
+
+=== Id schema and replacement in OpenKNXproducer ===
+
+To prevent collisions of IDs in the event of the merging and multiplication of modules and channels there is a schema for the differnt IDs used.
+
+- t or %T%: The module id in the specific device-fw
+- ccc or %CCC%: channel number, with leading zeros. "000" is reserved for module-specific usage
+- nnn: number, with leading zeros
+- rr: reference number, with leading zeros
+
+- Parameter Id: tcccnnn
+- ParameterRef Id: tcccnnn_R-tcccnnnrr
+- ComObject Id: tcccnnn
+- ComObjectRef Id: tcccnnn_R-tcccnnnrr
+
 == Information ==
 
 === project versions ===
