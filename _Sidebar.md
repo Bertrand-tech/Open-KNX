@@ -4,7 +4,8 @@
 * **[FAQ](https://github.com/OpenKNX/OpenKNX/wiki/FAQ)**
 * **[[Information for Users]]**
 * **[[Information for Developers]]**
-* **[OpenKnx Modules List](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-Modules)**
+
+# [Modules List](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-Modules)
 
 # [Applications](https://github.com/OpenKNX/OpenKNX/wiki/Application-Overview)
 * **[LogicModule](https://github.com/OpenKNX/OAM-LogicModule)**
