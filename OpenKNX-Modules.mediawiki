@@ -14,7 +14,7 @@ This list is not yet complete! Please contribute, at least with your own modules
 {| class="wikitable" style="margin:auto"
 |+ OpenKNX Modules Overview
 |-
-! Type !! Name !! Description !! Repository !! RP2040 !! SAMD21 !! HAL !! State
+! Type !! Name !! Description !! Repository !! RP2040 !! SAMD21 !! ??? !! State
 |-
 | OGM || Common || Common OpenKNX functionality used by every OpenKNX firmware || [https://github.com/OpenKNX/OGM-Common Repo] || X || X || N/A || Prod.
 |-
