@@ -24,7 +24,7 @@ This list is not yet complete! Please contribute, at least with your own modules
 |-
 | OFM || UpdateModule || Updates over KNX Bus || [https://github.com/OpenKNX/OFM-Updater Repo] || X || - || - || Alpha || [https://github.com/thewhobox thewhobox] 
 |-
-| OFM || PresenceModule || (virtual) presence functionality || [https://github.com/OpenKNX/OFM-PresenceModule Repo] || X || ? || ? || Prod. || 
+| OFM || PresenceModule || (virtual) presence functionality || [https://github.com/OpenKNX/OFM-PresenceModule Repo] || X || X || PM || Prod. || [https://github.com/mumpf mumpf]
 |-
 | OFM || VirtualButton || (virtual) button functionality || [https://github.com/OpenKNX/OFM-VirtualButton Repo] || X || ? || BTN || Prod. || 
 |-
