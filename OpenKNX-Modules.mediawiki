@@ -22,7 +22,7 @@ This list is not yet complete! Please contribute, at least with your own modules
 |-
 | OFM || THPSensorModule || Temperature, Humidty and Air pressure sensors || [https://github.com/OpenKNX/OFM-THPSensorModule Repo] || X || - || THP || Alpha || [https://github.com/Ing-Dom Ing-Dom]
 |-
-| OFM || UpdateModule || Updates over KNX Bus || [https://github.com/OpenKNX/OFM-Updater Repo] || X || - || - || Alpha || 
+| OFM || UpdateModule || Updates over KNX Bus || [https://github.com/OpenKNX/OFM-Updater Repo] || X || - || - || Alpha || [https://github.com/thewhobox thewhobox] 
 |-
 | OFM || PresenceModule || (virtual) presence functionality || [https://github.com/OpenKNX/OFM-PresenceModule Repo] || X || ? || ? || Prod. || 
 |-
