@@ -40,7 +40,7 @@ we agreed to use 0xA000 to 0xAFFF:
 * 0xA500 to 0xA5FF (42240 to 42495): reserved for damic
 * 0xAA00 to 0xAA0F (43520 to 43535): reserved for [https://github.com/ecarjat ecarjat]
 * 0xAC00 to 0xACFF (44032 to 44287): reserved for Cornelius 
-* 0xAE00 to 0xAE28 (44544 to 44584): reserved for [https://github.com/ginkel]
+* 0xAE00 to 0xAE28 (44544 to 44584): reserved for [https://github.com/ginkel ginkel]
 * 0xAF00 to 0xAFFF (44800 to 45055): reserved for Testing/Debugging etc... (no public usage)
 
 Following ApplicationNumbers are already in use:
