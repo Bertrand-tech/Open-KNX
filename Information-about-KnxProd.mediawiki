@@ -30,6 +30,8 @@ To prevent collisions of IDs in the event of the merging and multiplication of m
 
 === ApplicationNumber ===
 
+Please read [[How to create an OpenKNX device]]
+
 we agreed to use 0xA000 to 0xAFFF:
 
 * 0xA000 to 0xA0FF (40960 to 41215): reserved for [https://github.com/mumpf mumpf]
