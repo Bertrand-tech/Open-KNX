@@ -11,3 +11,4 @@
  - [[Installation of OpenKNX tools]]
  - [[Wie aktualisiert man eine ETS Applikation auf eine aktuelle Version]]
  - [[How to reconnect to a completely unresponsive board (SAMD and RP2040 boards)]]
+ - [[Device-Console]]
