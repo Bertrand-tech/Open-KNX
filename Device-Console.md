@@ -1,0 +1,1 @@
+Most OpenKNX Devices have a Device Console which can be accessed over USB and a serial console program like putty
