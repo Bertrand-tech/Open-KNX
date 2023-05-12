@@ -5,6 +5,7 @@ Most OpenKNX Devices have a Device Console which can be accessed over USB and a 
 Download and install [Putty](https://www.putty.org/) if necessary.
 
 You need to find the COM-Port of your OpenKNX-device. The device should be connected to your PC via USB. Open "Device Manager" and look at "Ports":
+
 ![Device Manager](https://github.com/OpenKNX/OpenKNX/assets/14316138/e3bc4f20-26d7-47b4-bc7f-41748558a616)
 
 Start putty and enter the following connection settings and press "Open":
