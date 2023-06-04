@@ -1,4 +1,6 @@
-Most OpenKNX Devices have a Device Console which can be accessed over USB and a serial console program like putty
+Most OpenKNX Devices have a Device Console which can be accessed over USB and a serial console program like putty.
+
+Your serial console should be configured to use LF or CR+LF as new line indication. CR will not work.
 
 ## Settings for putty
 
