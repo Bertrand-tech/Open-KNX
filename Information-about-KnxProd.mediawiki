@@ -59,6 +59,8 @@ Following ApplicationNumbers are already in use:
 * 0xA220 (41504) - 28CH Binäreingang (masifi)
 * 0xA230 (41520) - ModbusGateway (masifi)
 * 0xA300 (41728) - SoundModul (traxanos)
+* 0xA400 (41984) - IrModul (thewhobox)
+* 0xA401 (41985) - DaliGW (thewhobox)
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
