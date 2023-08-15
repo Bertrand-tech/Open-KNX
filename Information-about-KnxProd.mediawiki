@@ -43,6 +43,7 @@ we agreed to use 0xA000 to 0xAFFF:
 * 0xAA00 to 0xAA0F (43520 to 43535): reserved for [https://github.com/ecarjat ecarjat]
 * 0xAC00 to 0xACFF (44032 to 44287): reserved for Cornelius 
 * 0xAE00 to 0xAE28 (44544 to 44584): reserved for [https://github.com/ginkel ginkel]
+* 0xAE29 to 0xAE69 (44585 to 44649): reserved for [https://github.com/mgeramb mgeramb]
 * 0xAF00 to 0xAFFF (44800 to 45055): reserved for Testing/Debugging etc... (no public usage)
 
 Following ApplicationNumbers are already in use:
