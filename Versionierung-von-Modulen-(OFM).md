@@ -52,7 +52,7 @@ Der Inhalt der Datei ist:
     #define VALUE(x) VALUE_TO_STRING(x)
 
     #if BTN_ModuleVersion != ModuleVersion
-        #pragma message "\n\n\nYou need to >>> INCREASE YOUR <<< ETS ApplicationVersion and manually synchronize op:verify to ModuleVersion " VALUE(ModuleVersion) "\n\n\n"
+    #pragma message "\n\n\nYou need to >>> INCREASE YOUR <<< ETS ApplicationVersion and manually synchronize op:verify of the LOG Module to ModuleVersion " VALUE(ModuleVersion) "\n\n( see https://github.com/OpenKNX/OpenKNX/wiki/Versionierung-von-Modulen-(OFM)#fehler-vom-compiler )\n\n\n"
         #pragma GCC error "\n\nETS Application Version problem (see next message)\n\n"
     #endif
 
@@ -135,6 +135,8 @@ Der Compiler meldet
 
         You need to >>> INCREASE YOUR <<< ETS ApplicationVersion and manually 
         synchronize op:verify to ModuleVersion 25
+
+        ( see https://github.com/OpenKNX/OpenKNX/wiki/Versionierung-von-Modulen-(OFM)#fehler-vom-compiler )
 
 ### Fehler vom OpenKNXproducer
 
