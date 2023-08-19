@@ -118,6 +118,7 @@ Für den Fall, dass die Version nicht angegeben wurde, wird immer die aktuellste
   
         #define\s*ModuleVersion\s*(\d{1,3})"
 
+> **WICHTIG:** Diese Funktionalität steht erst ab der Version 2.3.5 des OpenKNXproducer zur Verfügung.
 ### Zusammenfassung
 
 Mit dem Einbinden eines passenden ***Modulname***Version.h Files auf der OFM-Seite und der Erweiterung des **op:define**-Tags mit **op:verify** auf der OAM-Seite wird die Infrastruktur so erweitert, dass sowohl beim Bauen der Firmware (compilieren) wie auch beim Bauen der ETS-Applikation (OpenKNXproducer) Versionsunstimmigkeiten erkannt werden, die sonst zur Laufzeit zu unerwarteten Auswirkungen führen können.
