@@ -32,9 +32,9 @@ Ein OFM muss für die Versionierung in src eine Datei zur Verfügung stellen, di
 
 ### Die Versionsdatei
 
-Die Namenskonvention für den Dateinamen ist ***Modulname***Version.h. Das OFM-VirtualButton würde somit die Datei
+Die Namenskonvention für den Dateinamen ist ModuleVersion.h. Das OFM-VirtualButton würde somit die Datei
 
-    src/VirtualButtonVersion.h
+    src/ModuleVersion.h
 
 enthalten. 
 
@@ -56,11 +56,13 @@ Der Inhalt der Datei ist:
         #pragma GCC error "\n\nETS Application Version problem (see next message)\n\n"
     #endif
 
-Dabei ist das Definieren der ModuleVersion notwendig, die ModuleRevision ist optional (zu Dokumentationszwecken über reine Coding-Änderungen).
+Dabei ist das #define ModuleVersion notwendig, die ModuleRevision ist optional (zu Dokumentationszwecken über reine Coding-Änderungen).
 
 Der Wertebereich für ModuleVersion ist der selbe wie der für ETS-Applikationen, XML-Tag "ApplicationVersion": 0-255. Der Wert sollte nur erhöht werden, wenn man im OFM an der Applikation etwas geändert hat, dass Auswirkungen auf die Nutzer (OAM) dieses OFM haben, da bei 255 Schluss ist! Man sollte auch immer bedenken, das eine Änderung dieses Wertes für alle nutzenden OAM eine Anpassung der eigenen Applikationsversion erfordert. Bitte also umsichtig mit Änderungen umgehen.
 
-Das Coding nach "ATTENTION" sorgt nur für eine halbwegs menschenwürdige Fehlermeldung beim Build und einen Buid-Abbruch und muss nicht angepasst werden. 
+Die ModuleRevision hat den Wertebereich von 0-31, angelehnt an den Revisions-Wertebereich in der ETS.
+
+Das Coding nach "ATTENTION" sorgt nur für eine halbwegs menschenwürdige Fehlermeldung beim Build und einem Buid-Abbruch und muss nicht angepasst werden. 
 
 ### Die Nutzung der Versionsdatei im OFM
 
@@ -72,7 +74,7 @@ In dieser Datei muss die Versionsdatei per #include eingefügt werden. Wichtig i
 
     #include "OpenKNX.h"
 
-    #inlcude "VirtualButtonVersion.h"
+    #inlcude "ModuleVersion.h"
 
 (Die Leerzeile ist auch wichtig, sie verhindert, dass die Includereihenfolge beim Speichern automatisch umsortiert wird).
 
@@ -104,7 +106,7 @@ Um die Versionierung auf OAM Ebene zu aktivieren, muss in der XML-Hauptdatei (da
 wird
 
     <op:define prefix="BTN" header="VirtualButtonModuleKnxprod.h" NumChannels="10" KoOffset="400" ModuleType="2">
-        <op:verify File="../lib/OFM-VirtualButton/src/VirtualButton.h" ModuleVersion="25" />
+        <op:verify File="../lib/OFM-VirtualButton/src/ModuleVersion.h" ModuleVersion="25" />
     </op:define>
 
 Dabei bedeuten
@@ -121,7 +123,7 @@ Für den Fall, dass die Version nicht angegeben wurde, wird immer die aktuellste
 > **WICHTIG:** Diese Funktionalität steht erst ab der Version 2.3.5 des OpenKNXproducer zur Verfügung.
 ### Zusammenfassung
 
-Mit dem Einbinden eines passenden ***Modulname***Version.h Files auf der OFM-Seite und der Erweiterung des **op:define**-Tags mit **op:verify** auf der OAM-Seite wird die Infrastruktur so erweitert, dass sowohl beim Bauen der Firmware (compilieren) wie auch beim Bauen der ETS-Applikation (OpenKNXproducer) Versionsunstimmigkeiten erkannt werden, die sonst zur Laufzeit zu unerwarteten Auswirkungen führen können.
+Mit dem Einbinden eines passenden ModuleVersion.h Files auf der OFM-Seite und der Erweiterung des **op:define**-Tags mit **op:verify** auf der OAM-Seite wird die Infrastruktur so erweitert, dass sowohl beim Bauen der Firmware (compilieren) wie auch beim Bauen der ETS-Applikation (OpenKNXproducer) Versionsunstimmigkeiten erkannt werden, die sonst zur Laufzeit zu unerwarteten Auswirkungen führen können.
 
 ## Vorgehen bei einer aus der Versionsprüfung resultierenden Fehlermeldung
 
@@ -160,7 +162,7 @@ Wenn der OpenKNXproducer innerhalb eines op:define einen op:verify-Tag findet, l
 
     #define BTN_ModuleVersion 25
 
-Das ist letztendlich genau das, was in dem .h-File der OAM-Versionsdatei steht, nur ergänzt durch den Modulpräfix. Durch dieses Define kann beim Compilieren der Firmware die in dem .h-File enthaltene Prüfung funktionieren:
+Das ist letztendlich genau das, was in dem ModuleVersion.h-File steht, nur ergänzt durch den Modulpräfix. Durch dieses Define kann beim Compilieren der Firmware die in dem ModuleVersion.h-File enthaltene Prüfung funktionieren:
 
     #if BTN_ModuleVersion != ModuleVersion
 
