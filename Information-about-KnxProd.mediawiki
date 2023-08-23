@@ -48,20 +48,21 @@ we agreed to use 0xA000 to 0xAFFF:
 
 Following ApplicationNumbers are already in use:
 
-* 0xA000 (40960) - PresenceModule (mumpf)
-* 0xA002 (40962) - PresenceModule-Big (mumpf)
-* 0xA010 (40976) - SensorModule-Wire (mumpf)
-* 0xA012 (40978) - SensorModule-Big (mumpf)
-* 0xA020 (40992) - OneWireGateway (mumpf)
-* 0xA030 (41008) - LogicModule (mumpf)
-* 0xA040 (41024) - SensorModule-Vpm (mumpf)
-* 0xA200 (41472) - EnocenGateway (masifi)
-* 0xA210 (41488) - GardenControl (masifi)
-* 0xA220 (41504) - 28CH Binäreingang (masifi)
-* 0xA230 (41520) - ModbusGateway (masifi)
-* 0xA300 (41728) - SoundModul (traxanos)
-* 0xA400 (41984) - IrModul (thewhobox)
-* 0xA401 (41985) - DaliGW (thewhobox)
+* 0xA000 (40960) - PresenceModule ([https://github.com/mumpf mumpf])
+* 0xA002 (40962) - PresenceModule-Big ([https://github.com/mumpf mumpf])
+* 0xA010 (40976) - SensorModule-Wire ([https://github.com/mumpf mumpf])
+* 0xA012 (40978) - SensorModule-Big ([https://github.com/mumpf mumpf])
+* 0xA020 (40992) - OneWireGateway ([https://github.com/mumpf mumpf])
+* 0xA030 (41008) - LogicModule ([https://github.com/mumpf mumpf])
+* 0xA040 (41024) - SensorModule-Vpm ([https://github.com/mumpf mumpf])
+* 0xA200 (41472) - EnocenGateway ([https://github.com/Smart-MF Masifi])
+* 0xA210 (41488) - GardenControl ([https://github.com/Smart-MF Masifi])
+* 0xA220 (41504) - 28CH Binäreingang ([https://github.com/Smart-MF Masifi])
+* 0xA230 (41520) - ModbusGateway ([https://github.com/Smart-MF Masifi])
+* 0xA300 (41728) - SoundModul ([https://github.com/traxanos traxanos])
+* 0xA400 (41984) - IrModul ([https://github.com/thewhobox thewhobox])
+* 0xA401 (41985) - DaliGW ([https://github.com/thewhobox thewhobox])
+* 0xAE2A (44586) - SmartHomeBridge ([https://github.com/mgeramb mgeramb])
 
 === ApplicationVersion ===
 ApplicationVersion (im XML -> angezeigt in der ETS):
