@@ -116,7 +116,7 @@ Zeitschaltuhren
 
 ## Applikationsbeschreibung
 
-Die aktuelle Applikationsbeschreibung ist immer im git-Repo zu finden: [OFM-LogicModule/doc](../../../OFM-LogicModule/doc/Applikationsbeschreibung-Logic.md)
+Die aktuelle Applikationsbeschreibung ist immer im git-Repo zu finden: [OFM-LogicModule/doc](../../OFM-LogicModule/doc/Applikationsbeschreibung-Logic.md)
  
 ## Hardware
 
