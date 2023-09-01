@@ -119,7 +119,7 @@ Zeitschaltuhren
 
 ## Applikationsbeschreibung
 
-Die aktuelle Applikationsbeschreibung ist immer im git-Repo zu finden: [OAM-LogicModule/doc](../../OAM-LogicModule/blob/main/doc/Applikationsbeschreibung-Logik.md)
+Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreibung-Logik](../../OAM-LogicModule/blob/main/doc/Applikationsbeschreibung-Logik.md)
  
 ## Hardware
 
