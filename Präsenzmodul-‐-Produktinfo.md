@@ -11,7 +11,7 @@ OAM-PresenceModule implementiert einen virtuellen Präsenzmelder (VPM). Es ist e
 
 ## Applikationsbeschreibung
 
-Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreibung-Logik](../../OAM-PresenceModule/blob/main/doc/Applikationsbeschreibung-Praesenz.md)
+Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreibung-Präsenz](../../OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md)
  
 ## Hardware
 
