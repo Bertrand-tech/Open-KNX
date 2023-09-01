@@ -27,13 +27,30 @@ Ausgänge unterstützen zusätzlich noch DPT 16
 
 Konvertierung zwischen Ein- und Ausgangs-DPT
 
-Alle Ein- und Ausgänge können ihre Werte invertieren
+Alle Ein- und Ausgänge 
+
+* können ihre Werte invertieren
+* sind als TRI-State-Versionen ausgeführt, sie verarbeiten bzw. senden erst Werte, wenn diese auf dem Signalweg definiert worden sind.
 
 Eingänge können aktiv Werte lesen
 
 * beim Startup
 * Zyklisch mit einstellbarer Zeit
 * Zyklisch bis die erste Antwort kommt
+
+Eingänge können ihre Werte beim Stromausfall nichtflüchtig speichern, so dass diese nach einem Neustart zur Verfügung stehen  
+
+Spezielle TOR-Funktionen
+
+* TOR kann beim Öffnen und/oder beim Schließen zusätzliche Telegramme senden
+
+  * konstant EIN
+  * konstant AUS
+  * Wert vom TOR-Eingang
+  * nichts
+  * Telegramme beim Öffnen sind unabhängig vom Schließen einstellbar
+
+* TOR kann sofort nach dem Öffnen selbständig schließen (Impulseingang)
 
 Wiederholfilter: Wenn mehrfach EIN- oder AUS-Telegramme hintereinander kommen, kann man
 
@@ -60,30 +77,47 @@ Ausgangskonverter
 
 Verfügbare Formeln
 
-* SUM
+* Summe 
+* Differenz
+* Produkt
+* Quotient
+* Durchschnitt
+* Modulo
+* Bit-UND
+* Bit-ODER
+* Bit-EXOR
+* Bit-Schieben nach links
+* Bit-Schieben nach rechts
+* Minimum
+* Maximum
+* 2-Bit zu Int 
+* Glättung von Werten
 * Es ist möglich bentzterdefinierte Formeln in die Firmware einbauen
 
 Sonderfunktionen
 
-Die Funktion "Gerät zurücksetzen" (sonst nur über die ETS machbar)
-Akustische Signalisierung über einen Buzzer
-Optische Signalisierung mittels einer RGB-LED
-Zeitschaltuhren
-Als Jahresschaltuhr mit 4 oder als Tages/Wochenschaltuhr mit 8 Schaltzeiten definiert werden
-Feiertage berücksichtigen (oder ignorieren)
-Urlaub berücksichtigen (oder ignorieren)
-Tag/Monat berücksichtigen (bei Jahresschaltuhren)
-Wochentag/Stunde/Minute berücksichtigen (bei allen Schaltuhren)
-Sonnenstandsbezogene Schaltzeiten:
-Sonnenauf-/-untergang +/- Stunden/Minuten
-Sonnenauf-/-untergang, aber frühstens/spätestens um ...
-Jede Stunde zu bestimmten Minuten schalten
-Jeder Schaltvorgang kann dann wie bei jedem Logikkanal auch alle Ausgangsfunktionen haben
-Beim Neustart des Logikmoduls den zeitlich letzten Schaltzeitpunkt berechnen und erneut ausgeben
+* Die Funktion "Gerät zurücksetzen" (sonst nur über die ETS machbar)
+* Akustische Signalisierung über einen Buzzer
+* Optische Signalisierung mittels einer RGB-LED
 
+Zeitschaltuhren
+
+* Als Jahresschaltuhr mit 4 oder als Tages/Wochenschaltuhr mit 8 Schaltzeiten definiert werden
+* Feiertage berücksichtigen (oder ignorieren)
+* Urlaub berücksichtigen (oder ignorieren)
+* Tag/Monat berücksichtigen (bei Jahresschaltuhren)
+* Wochentag/Stunde/Minute berücksichtigen (bei allen Schaltuhren)
+* Sonnenstandsbezogene Schaltzeiten:
+  * Sonnenauf-/-untergang +/- Stunden/Minuten
+  * Sonnenauf-/-untergang, aber frühstens/spätestens um ...
+* Jede Stunde zu bestimmten Minuten schalten
+* Jeder Schaltvorgang kann dann wie bei jedem Logikkanal auch alle Ausgangsfunktionen haben
+* Beim Neustart des Logikmoduls den zeitlich letzten Schaltzeitpunkt berechnen und erneut ausgeben
 
 ## Applikationsbeschreibung
 
+Die aktuelle Applikationsbeschreibung ist immer im git-Repo zu finden: [OFM-LogicModule/doc](../../../OFM-LogicModule/doc/Applikationsbeschreibung-Logic.md)
+ 
 ## Hardware
 
 ## Verwendet
