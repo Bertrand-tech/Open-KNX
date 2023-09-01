@@ -125,6 +125,17 @@ Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreib
 
 ## Verwendet
 
+Das Logikmodul wird in vielen OpenKNX-Modulen verwendet, in unterchiedlicher Kanalanzahl. Die folgende Liste erhebt keinen Anspruch auf Vollständigkeit:
+
+* OAM-PresenceModule - Präsenzmelder
+* OAM-SensorModule - Sensormodul
+* OAM-EnoceanGateway - Enocean Gateway
+* OAM-ModubusGateway - Modbus RTU Gateway
+* BEM-GardenControl - Bewässerungsautomat
+* OAM-VirtualButton - Tastsensor
+* OAM-SmartHomeBridge - HomeKit- and Philips-Hue-Bridge
+* OAM-Dummy - Beispielprojekt für Neuentwicklungen
+
 ## Varianten
 
 
