@@ -40,6 +40,8 @@ Eingänge können aktiv Werte lesen
 
 Eingänge können ihre Werte beim Stromausfall nichtflüchtig speichern, so dass diese nach einem Neustart zur Verfügung stehen  
 
+Eingänge können intern direkt mit anderen KO verknüpft werden (ohne GA), wodurch keine Zwischenergebnisse auf den Bus erscheinen (reduzierung der Buslast)
+
 Spezielle TOR-Funktionen
 
 * TOR kann beim Öffnen und/oder beim Schließen zusätzliche Telegramme senden
@@ -110,6 +112,7 @@ Zeitschaltuhren
 * Sonnenstandsbezogene Schaltzeiten:
   * Sonnenauf-/-untergang +/- Stunden/Minuten
   * Sonnenauf-/-untergang, aber frühstens/spätestens um ...
+  * Sonnenauf-/-untergang +/- Sonnenwinkel über/unter dem Horizont
 * Jede Stunde zu bestimmten Minuten schalten
 * Jeder Schaltvorgang kann dann wie bei jedem Logikkanal auch alle Ausgangsfunktionen haben
 * Beim Neustart des Logikmoduls den zeitlich letzten Schaltzeitpunkt berechnen und erneut ausgeben
