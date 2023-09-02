@@ -158,16 +158,16 @@ Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikation
 
 Im Folgenden werden nur größere Änderungen aufgeführt:
 
-### Firmware 1.11.1, Applikation 1.11
+### Firmware 1.5.1, Applikation 1.5
 
-* Die enthaltene Logik hat den Firmware-Stand 1.5.1
+* NEU: TOR hat jetzt einen Tri-State-Eingang zum öffnen vom Tor: Das Tor ist beim Neustart weder offen noch geschlossen und agiert somit beim ersten Telegramm erwartungskonform
+* NEU: TOR ist bei Neustart am Ausgang undefiniert und wird mit dem ersten öffnen/schließen erst initialisiert.
+* NEU: Mathematische Funktion "Glättung" von Werten eingeführt
 * Dieses Release profitiert primär von den Stabilitätsverbesserungen des KNX-Stack
 
-### Firmware 1.7.6, Applikation 1.7
+### Firmware 1.4.2, Applikation 1.4
 
 Die letzte zuvor offiziell freigegebene Firmware und ETS-Applikation
-
-
 
 
 
