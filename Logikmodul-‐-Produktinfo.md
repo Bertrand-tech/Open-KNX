@@ -148,6 +148,26 @@ Die folgende Liste erhebt keinen Anspruch auf Vollständigkeit:
 
 Das Logikmodul ist in der Version 1.5.1 verfügbar.
 
+## Releases
+
+Das Logikmodul ist in der [Version 1.5.1](../../OAM-LogicModule/releases/tag/1.5.1-Release) freigegeben. 
+
+## Änderungshistorie
+
+Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikationsbeschreibung-Logik](../../OAM-LogicModule/blob/main/doc/Applikationsbeschreibung-Logik.md#änderungshistorie).
+
+Im Folgenden werden nur größere Änderungen aufgeführt:
+
+### Firmware 1.11.1, Applikation 1.11
+
+* Die enthaltene Logik hat den Firmware-Stand 1.5.1
+* Dieses Release profitiert primär von den Stabilitätsverbesserungen des KNX-Stack
+
+### Firmware 1.7.6, Applikation 1.7
+
+Die letzte zuvor offiziell freigegebene Firmware und ETS-Applikation
+
+
 
 
 
