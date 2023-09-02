@@ -97,7 +97,7 @@ Es gibt 2 Varianten des VPM:
 
 ## Änderungshistorie
 
-Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikationsbeschreibung-Präsenz](../../OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md).
+Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikationsbeschreibung-Präsenz](../../OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md#änderungshistorie).
 
 Im Folgenden werden nur größere Änderungen aufgeführt:
 
