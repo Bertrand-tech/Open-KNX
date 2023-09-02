@@ -88,7 +88,7 @@ Das Präsenzmodul wird auch in einer Variante des Sensormoduls verwendet, als ei
 
 ## Releases
 
-Das Präsenzmodul ist in der [Version 1.11.1](../OAM-PresenceModule/releases/tag/1.11.1-Release) freigegeben.
+Das Präsenzmodul ist in der [Version 1.11.1](../../OAM-PresenceModule/releases/tag/1.11.1-Release) freigegeben.
 
 Es gibt 2 Varianten des VPM:
 
