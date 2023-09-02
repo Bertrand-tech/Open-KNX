@@ -86,14 +86,16 @@ Die Software läuft auf folgender Hardware "out-of-the-box":
 
 Das Präsenzmodul wird auch in einer Variante des Sensormoduls verwendet, als ein VPM mit 5 Kanälen. 
 
-## Varianten
+## Releases
 
-Das Präsenzmodul ist in der Version 1.9.1 verfügbar.
+Das Präsenzmodul ist in der [Version 1.11.1](../OAM-PresenceModule/releases/tag/1.11.1-Release) freigegeben.
 
 Es gibt 2 Varianten des VPM:
 
 * PresenceModule-Big mit 40 Präsenzkanälen und 99 Logikkanälen, nur für den RP2040 verfügbar.
 * PresenceModule-Release mit 20 Präsenzkanälen und 30 Logikkanälen, sowohl für den SAMD wie auch für den RP2040 verfügbar.
+
+## Änderungshistorie
 
 
 
