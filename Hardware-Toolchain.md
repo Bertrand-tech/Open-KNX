@@ -3,7 +3,7 @@
 # Tools used:
 
 * KiCAD 7.0.7
-* FreeCAD 0.21.1 with KiCAD StepUp
+* FreeCAD 0.21.1 with KiCAD StepUp v10.19.4
 
 
 
