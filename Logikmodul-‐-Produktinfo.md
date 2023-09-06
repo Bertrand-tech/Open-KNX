@@ -159,7 +159,7 @@ Das Logikmodul ist in der Version 1.5.3 verfügbar.
 
 ## Releases
 
-Das Logikmodul ist in der [Version 1.5.3](../../OAM-LogicModule/releases/tag/1.5.3-release) freigegeben. 
+Das Logikmodul ist als [LogicModule-Release-1.5.3](../../OAM-LogicModule/releases/tag/1.5.3-release) freigegeben. 
 
 ## Änderungshistorie
 
