@@ -78,21 +78,23 @@ Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreib
 
 Zur Hardwareplattform gilt das gleiche wie beim [Logikmodul](Logikmodul-%E2%80%90-Produktinfo#hardwareplattformen) beschrieben.
 
+### Verfügbare Hardware
+
 Die Software läuft auf folgender Hardware "out-of-the-box":
 
-* **Smart-MF Sensormodul** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder, um die Applikationen von alten oder unzuverlässigen Präsenzmeldern zu verbessern
-* **PiPico-BCU-Connector** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector), als virtueller Präsenzmelder
-* **1TE-RP2040-Smart-MF** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder auf allen Varianten lauffähig
-* **OpenKNX-UP1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1), als virtueller Präsenzmelder auf allen Varianten lauffähig
-* **Smart-MF RealPresence** [www.smart-mf.de](https://www.smart-mf.de), als vollständiger Präsenzmelder, der auch Personen ohne Bewegung zuverlässig erkennt.
+* **Smart-MF Sensormodul** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder, um die Applikationen von alten oder unzuverlässigen Präsenzmeldern zu verbessern. Das Sensormodul ist als v3.1 (SAMD) und als v4.0 (RP2040) verfügbar.
+* **PiPico-BCU-Connector** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector), als virtueller Präsenzmelder (RP2040)
+* **1TE-RP2040-Smart-MF** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder auf allen Varianten lauffähig (RP2040)
+* **OpenKNX-UP1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1), als virtueller Präsenzmelder auf allen Varianten lauffähig (RP2040)
+* **Smart-MF RealPresence** [www.smart-mf.de](https://www.smart-mf.de), als vollständiger Präsenzmelder, der auch Personen ohne Bewegung zuverlässig erkennt (RP2040)
 
 ## Verwendet
 
-Das Präsenzmodul wird auch in einer Variante des Sensormoduls verwendet, als ein VPM mit 5 Kanälen. 
+Das Präsenzmodul wird auch in einer Variante des Sensormoduls verwendet, als ein VPM mit 5 Kanälen.
 
 ## Releases
 
-Das Präsenzmodul ist in der [Version 1.11.1](../../OAM-PresenceModule/releases/tag/1.11.1-Release) freigegeben. 
+Das Präsenzmodul ist in der [Version 1.11.3](../../OAM-PresenceModule/releases/tag/1.11.3-Release) freigegeben. 
 
 Es gibt 2 Varianten des VPM:
 
@@ -105,9 +107,9 @@ Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikation
 
 Im Folgenden werden nur größere Änderungen aufgeführt:
 
-### Firmware 1.11.1, Applikation 1.11
+### Firmware 1.11.3, Applikation 1.11
 
-* Die enthaltene Logik hat den Firmware-Stand 1.5.1
+* Die enthaltene Logik hat den Firmware-Stand 1.5.3
 * Dieses Release profitiert primär von den Stabilitätsverbesserungen des KNX-Stack
 
 ### Firmware 1.7.6, Applikation 1.7
