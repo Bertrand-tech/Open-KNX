@@ -74,6 +74,10 @@ Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreib
  
 ## Hardware
 
+### Hardwareplattformen
+
+Zur Hardwareplattform gilt das gleiche wie beim (Logikmodul)[Logikmodul-%E2%80%90-Produktinfo#hardwareplattformen] beschrieben.
+
 Die Software läuft auf folgender Hardware "out-of-the-box":
 
 * **Smart-MF Sensormodul** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder, um die Applikationen von alten oder unzuverlässigen Präsenzmeldern zu verbessern
