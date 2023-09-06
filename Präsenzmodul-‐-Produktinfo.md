@@ -71,6 +71,8 @@ Logikmodul mit vielen weiteren Funktionen
 ## Applikationsbeschreibung
 
 Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreibung-Präsenz](../../OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md)
+
+Die aktuelle Applikationsbeschreibung für das enthaltene Logikmodul ist hier zu finden: [Applikationsbeschreibung-Logik](../../OAM-LogicModule/blob/main/doc/Applikationsbeschreibung-Logik.md)
  
 ## Hardware
 
