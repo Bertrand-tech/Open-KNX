@@ -161,7 +161,7 @@ Das Logikmodul ist in der Version 1.5.3 verfügbar.
 
 Das Logikmodul ist als [LogicModule-Release-1.5.3](../../OAM-LogicModule/releases/tag/1.5.3-release) freigegeben. 
 
-> Empfehlung: Falls das Logikmodul standalone auf einer RP2040-Hardware installiert werden soll, sollte man gleich zum VPM greifen. Man erhält exakt die selbe Logik mit gleich vielen Logikkanälen, bekommt aber noch weitere 40 Präsenzkanäle dazu. Falls man die nicht nutzt, ist das kein Nachteil, aber falls man mal was in der Richtung machen will, hat man VPM-Kanäle verfügbar.
+> Empfehlung: Falls das Logikmodul standalone auf einer RP2040-Hardware installiert werden soll, sollte man [gleich zum VPM greifen](Präsenzmodul-‐-Produktinfo). Man erhält exakt die selbe Logik mit gleich vielen Logikkanälen, bekommt aber noch weitere 40 Präsenzkanäle dazu. Falls man die nicht nutzt, ist das kein Nachteil, aber falls man mal was in der Richtung machen will, hat man VPM-Kanäle verfügbar.
 
 ## Änderungshistorie
 
