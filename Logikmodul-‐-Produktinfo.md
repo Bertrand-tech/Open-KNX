@@ -123,12 +123,21 @@ Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreib
  
 ## Hardware
 
+### Hardwareplattformen
+
+OpenKNX unterstützt standardmäßig 2 Prozessoren: 
+
+* SAMD - Der erste von OpenKNX unterstützte Prozessor, für viele Anwendungen vollkommen ausreichend. Das Modulkonzept von OpenKNX, bei dem mehrere - normalerweise für sich stehende - Applikationen kombiniert werden können, bringt diesen Prozessor bei vielen Modulen an Grenzen. Dewegen haben die Module bei diesem Prozessor häufig eine geringere Kanalanzahl. 
+* RP2040 - Der aktuell von OpenKNX favorisierte Prozessor. Die Ressorucen dieses Prozessors erlauben größere Applikationen und mehr Kanäle. Ferner bietet dieser Prozessor auch die Möglichkeit eines Updates über den Bus. Falls es Installationspakete für SAMD und für RP2040 gibt, sind die für den RP2040 meist mit "Big" oder "Gross" gekennzeichnet. Diese sollten für einen RP2040 bevorzugt verwendet werden.
+
+### Verfügbare Hardware
+
 Die Software läuft auf folgender Hardware "out-of-the-box":
 
-* **Smart-MF Sensormodul** [www.smart-mf.de](https://www.smart-mf.de), als Logikmodul mit der Option, über eine Zwischenplatine einen Buzzer und/oder einen RGB-LED-Signalgeber zu erhalten
-* **PiPico-BCU-Connector** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector), als Logikmodul
-* **1TE-RP2040-Smart-MF** [www.smart-mf.de](https://www.smart-mf.de), auf allen Varianten als Logikmodul lauffähig
-* **OpenKNX-UP1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1), auf allen Varianten als Logikmodul lauffähig
+* **Smart-MF Sensormodul** [www.smart-mf.de](https://www.smart-mf.de), als Logikmodul mit der Option, über eine Zwischenplatine einen Buzzer und/oder einen RGB-LED-Signalgeber zu erhalten. Das Sensormodul ist als v3.1 (SAMD) und als v4.0 (RP2040) verfügbar.
+* **PiPico-BCU-Connector** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector), als Logikmodul auf RP2040.
+* **1TE-RP2040-Smart-MF** [www.smart-mf.de](https://www.smart-mf.de), auf allen Varianten als Logikmodul lauffähig (RP2040)
+* **OpenKNX-UP1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1), auf allen Varianten als Logikmodul lauffähig (RP2040)
 
 ## Verwendet
 
@@ -146,11 +155,11 @@ Die folgende Liste erhebt keinen Anspruch auf Vollständigkeit:
 
 ## Varianten
 
-Das Logikmodul ist in der Version 1.5.1 verfügbar.
+Das Logikmodul ist in der Version 1.5.3 verfügbar.
 
 ## Releases
 
-Das Logikmodul ist in der [Version 1.5.1](../../OAM-LogicModule/releases/tag/1.5.1-Release) freigegeben. 
+Das Logikmodul ist in der [Version 1.5.3](../../OAM-LogicModule/releases/tag/1.5.3-release) freigegeben. 
 
 ## Änderungshistorie
 
@@ -158,8 +167,9 @@ Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikation
 
 Im Folgenden werden nur größere Änderungen aufgeführt:
 
-### Firmware 1.5.1, Applikation 1.5
+### Firmware 1.5.3, Applikation 1.5
 
+* FIX: Der Delta-Input-Converter hat beim Start keinen ReadRequest auf einem Eingang gesendet, wenn auf dem anderen Eingang ein Wert empfangen wurde.
 * NEU: TOR hat jetzt einen Tri-State-Eingang zum öffnen vom Tor: Das Tor ist beim Neustart weder offen noch geschlossen und agiert somit beim ersten Telegramm erwartungskonform
 * NEU: TOR ist bei Neustart am Ausgang undefiniert und wird mit dem ersten öffnen/schließen erst initialisiert.
 * NEU: Mathematische Funktion "Glättung" von Werten eingeführt
