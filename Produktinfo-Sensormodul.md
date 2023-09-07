@@ -43,9 +43,9 @@ Es gibt Sensormodul-Firmwarevarianten kombiniert mit dem 1-Wire-Modul, dem Präs
 
 ## Applikationsbeschreibung
 
-Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreibung-Sensor](../../OAM-SensorModule/blob/main/doc/Applikationbeschreibung-Sensor.md)
+Die aktuelle Applikationsbeschreibung ist hier zu finden: [Applikationsbeschreibung-Sensor](../../OAM-SensorModule/blob/main/doc/Applikationsbeschreibung-Sensor.md)
 
-Die aktuelle Applikationsbeschreibung für das eventuell enthaltene OneWire-Modul ist hier zu finden: [Applikationsbeschreibung-Wire](../../OAM-OneWireModule/blob/main/doc/Applikationbeschreibung-Wire.md)
+Die aktuelle Applikationsbeschreibung für das eventuell enthaltene OneWire-Modul ist hier zu finden: [Applikationsbeschreibung-Wire](../../OAM-OneWireModule/blob/main/doc/Applikationsbeschreibung-Wire.md)
 
 Die aktuelle Applikationsbeschreibung für das eventuell enthaltene Präsenzmodul ist hier zu finden: [Applikationsbeschreibung-Präsenz](../../OAM-PresenceModule/blob/main/doc/Applikationbeschreibung-Praesenz.md)
 
