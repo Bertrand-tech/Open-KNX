@@ -69,7 +69,7 @@ Das Sensormodul wird in keinem anderen Modul verwendet.
 
 ## Releases
 
-Das Sensormodul ist in der [Version 1.1.3](../../OAM-SensorModule/releases/tag/1.1.3-Release) freigegeben. 
+Das Sensormodul ist in der [Version 1.1.3](../../OAM-SensorModule/releases/tag/v1.1.3) freigegeben. 
 
 Es gibt 3 Varianten des Sensormoduls:
 
