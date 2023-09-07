@@ -81,7 +81,7 @@ Es gibt 3 Varianten des Sensormoduls:
 
 ## Änderungshistorie
 
-Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikationsbeschreibung-Sensor](../../OAM-SensorModule/blob/main/doc/Applikationbeschreibung-Sensor.md#änderungshistorie).
+Eine detaillierte Änderungshistorie findet ihr immer am Anfang der [Applikationsbeschreibung-Sensor](../../OAM-SensorModule/blob/main/doc/Applikationsbeschreibung-Sensor.md#änderungshistorie).
 
 Im Folgenden werden nur größere Änderungen aufgeführt:
 
