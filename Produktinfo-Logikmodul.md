@@ -138,6 +138,7 @@ Die Software läuft auf folgender Hardware "out-of-the-box":
 * **PiPico-BCU-Connector** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector), als Logikmodul auf RP2040.
 * **1TE-RP2040-Smart-MF** [www.smart-mf.de](https://www.smart-mf.de), auf allen Varianten als Logikmodul lauffähig (RP2040)
 * **OpenKNX-UP1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1), auf allen Varianten als Logikmodul lauffähig (RP2040)
+* **OpenKNX-REG1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-REG1), auf allen Varianten als Logikmodul lauffähig (RP2040)
 
 ## Verwendet
 
