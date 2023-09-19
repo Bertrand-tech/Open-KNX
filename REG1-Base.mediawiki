@@ -17,8 +17,8 @@ It is meant for applications using no or very little I/O.
 
 == Firmware-Applications ==
 
-* [https://github.com/OpenKNX/OpenKNX/wiki/Produktinfo-Logikmodul] - 99 channel logic module
-* [https://github.com/OpenKNX/OpenKNX/wiki/Produktinfo-Pr%C3%A4senzmodul] - 40 channel virtual presence, 99 channel logic module
+* [https://github.com/OpenKNX/OpenKNX/wiki/Produktinfo-Logikmodul LogicModule] - 99 channel logic module
+* [https://github.com/OpenKNX/OpenKNX/wiki/Produktinfo-Pr%C3%A4senzmodul PresenceModule] - 40 channel virtual presence, 99 channel logic module
 
 == GPIO Info ==
 
