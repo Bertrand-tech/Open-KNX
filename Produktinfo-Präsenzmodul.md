@@ -87,8 +87,7 @@ Die Software läuft auf folgender Hardware "out-of-the-box":
 * **Smart-MF Sensormodul** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder, um die Applikationen von alten oder unzuverlässigen Präsenzmeldern zu verbessern. Das Sensormodul ist als v3.1 (SAMD) und als v4.0 (RP2040) verfügbar.
 * **PiPico-BCU-Connector** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/PiPico-BCU-Connector), als virtueller Präsenzmelder (RP2040)
 * **1TE-RP2040-Smart-MF** [www.smart-mf.de](https://www.smart-mf.de), als virtueller Präsenzmelder auf allen Varianten lauffähig (RP2040)
-* **OpenKNX-UP1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-UP1), als virtueller Präsenzmelder auf allen Varianten lauffähig (RP2040)
-* **OpenKNX-REG1-System** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/OpenKNX-REG1), als virtueller Präsenzmelder auf allen Varianten lauffähig (RP2040)
+* **OpenKNX-REG1-Base** [OpenKNX-Wiki](https://github.com/OpenKNX/OpenKNX/wiki/REG1-Base), als virtueller Präsenzmelder lauffähig (RP2040)
 * **Smart-MF RealPresence** [www.smart-mf.de](https://www.smart-mf.de), als vollständiger Präsenzmelder, der auch Personen ohne Bewegung zuverlässig erkennt (RP2040)
 
 ## Verwendet
